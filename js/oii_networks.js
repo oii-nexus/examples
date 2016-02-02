@@ -102,7 +102,7 @@ $( document ).ready(function() {
 			s.refresh();
 			
 			var attr=new Array();
-			attr.push("<dt>Label</dt><dd>"+nodeObj["label"]+"</dd>")
+			//attr.push("<dt>Label</dt><dd class=\"node\" data-id=\""+nodeObj.id+"\">"+nodeObj["label"]+"</dd>")
 			if (nodeObj["attributes"]) {
 				for (var key in nodeObj["attributes"]) {
 					attr.push("<dt>"+key+"</dt><dd>"+nodeObj["attributes"][key]+"</dd>")
@@ -112,7 +112,7 @@ $( document ).ready(function() {
 			//Populate attributepane
 			var pane = $("#attributepane");
 			pane.find(".headertext").html("Node details");
-			pane.find(".bodytext").html("<h2>Attributes</h2><dl>"+attr.join("")+"</dl><h2>Neighbors</h2><ul>"+neighbors.join("")+"</ul>");
+			pane.find(".bodytext").html("<h2 class=\"node\" data-id=\""+nodeObj.id+"\">"+nodeObj["label"]+"</h2><dl>"+attr.join("")+"</dl><h2>Neighbors</h2><ul>"+neighbors.join("")+"</ul>");
 			pane.delay(400).animate({width:'show'},350);
 	
 			$(".node").click(function() {
