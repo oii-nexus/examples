@@ -78,6 +78,8 @@ $( document ).ready(function() {
 				if (toKeep[n.id]) {
 					emph(n);
 					if (nodeObj===false && nodeId==n.id) {
+						//TODO: Force label of this node to be printed (this is focal node)
+						//Not possible? -- see force_labels.js
 						nodeObj=n;
 					} else {
 						//TODO: separate out direction of links if specificed in config (incoming, outgoing, mutual)
@@ -101,7 +103,6 @@ $( document ).ready(function() {
 			
 			var attr=new Array();
 			attr.push("<dt>Label</dt><dd>"+nodeObj["label"]+"</dd>")
-			console.log(typeof toKeep)
 			if (nodeObj["attributes"]) {
 				for (var key in nodeObj["attributes"]) {
 					attr.push("<dt>"+key+"</dt><dd>"+nodeObj["attributes"][key]+"</dd>")
@@ -113,11 +114,26 @@ $( document ).ready(function() {
 			pane.find(".headertext").html("Node details");
 			pane.find(".bodytext").html("<h2>Attributes</h2><dl>"+attr.join("")+"</dl><h2>Neighbors</h2><ul>"+neighbors.join("")+"</ul>");
 			pane.delay(400).animate({width:'show'},350);
-		
+	
 			$(".node").click(function() {
 				var nodeId=$(this).attr("data-id");
+				var renderer = s.renderers[0];
+				renderer.dispatchEvent('outNode', {node:s.graph.nodes(nodeId)});
 				highlightNode(nodeId);
 			});
+			
+			$(".node").hover(function() {
+					//Mouse in
+					var nodeId=$(this).attr("data-id");
+					var renderer = s.renderers[0];
+					renderer.dispatchEvent('overNode', {node:s.graph.nodes(nodeId)});
+				}, function() {
+					//Mouse out
+					var nodeId=$(this).attr("data-id");
+					var renderer = s.renderers[0];
+					renderer.dispatchEvent('outNode', {node:s.graph.nodes(nodeId)});
+				}
+			);
 
 		};
 		
@@ -145,8 +161,23 @@ $( document ).ready(function() {
 		for (var cluster in s.clusters) {
 			cluster_html[x]='<div style="line-height:12px"><a href="#' + cluster + '" class="groupSelect" data-cluster="' + cluster +'"><div style="width:40px;height:12px;border:1px solid #fff;background:' + cluster + ';display:inline-block"></div> Group ' + (x++) + ' (' + s.clusters[cluster].length + ' members)</a></div>';
 		}
-		$("#attributeselect .select").html(cluster_html.join(""));
-	
+		$("#attributeselect .list").html(cluster_html.join(""));
+		
+		var select = $("#attributeselect .select");
+		select.click(function () {
+			var selector=$(this);
+			var list = selector.next(".list");
+			if (this.display) {
+				this.display = !1;
+				list.hide();
+				selector.removeClass("close");
+			} else {
+				this.display = !0;
+				list.show();
+				selector.addClass("close");
+			}
+		});
+			
 		$(".groupSelect").click(function(evt){
 			var cluster = $(this).attr("data-cluster");		
 			var toKeep={};

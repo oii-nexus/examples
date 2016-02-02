@@ -250,7 +250,7 @@ user-select: none;
 }
 
 #attributeselect .close {
-background-position: 200px -8px;
+	background-position: 200px -8px;
 }
 
 #attributeselect .list {
