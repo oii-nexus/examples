@@ -55,29 +55,72 @@ $( document ).ready(function() {
 		// original color.
 		// We do the same for the edges, and we only keep
 		// edges that have both extremities colored.
+		
+		var emph=function (obj) {obj.hidden=false;};
+		var unemph=function (obj) {obj.hidden=true;};
+		if (oii.config.features.clickBehavior) {
+			if (oii.config.features.clickBehavior==="dim") {
+				emph=function (obj) {obj.color = obj.originalColor;};
+				unemph=function (obj) {obj.color = '#aaa';};
+			}
+		}
+			
+		
+		
 		var highlightNode=function(nodeId) {
 			var toKeep = s.graph.neighbors(nodeId);
-			toKeep[nodeId] = true; //SAH -- previously was the entire node object as input param
+			toKeep[nodeId] = true; //SAH -- example code had entire node object here
+			
+			var neighbors=new Array(toKeep.length);
+			var nodeObj=false;
 
 			s.graph.nodes().forEach(function(n) {
-				if (toKeep[n.id])
-					n.color = n.originalColor;
-				else
-					n.color = '#eee';
+				if (toKeep[n.id]) {
+					emph(n);
+					if (nodeObj===false && nodeId==n.id) {
+						nodeObj=n;
+					} else {
+						//TODO: separate out direction of links if specificed in config (incoming, outgoing, mutual)
+						neighbors.push('<li class="node" data-id="'+n.id+'"><a href="javascript:void(0);">'+n.label+'</a></li>');
+					}
+				} else {
+					unemph(n);
+				}
 			});
 
 			s.graph.edges().forEach(function(e) {
-				if (toKeep[e.source] && toKeep[e.target])
-					e.color = e.originalColor;
-				else
-					e.color = '#eee';
+				if (toKeep[e.source] && toKeep[e.target]) {
+					emph(e);
+				} else {
+					unemph(e);
+				}
 			});
 
-			// Since the data has been modified, we need to
-			// call the refresh method to make the colors
-			// update effective.
+			// Always call refresh after modifying data
 			s.refresh();
+			
+			var attr=new Array();
+			attr.push("<dt>Label</dt><dd>"+nodeObj["label"]+"</dd>")
+			console.log(typeof toKeep)
+			if (nodeObj["attributes"]) {
+				for (var key in nodeObj["attributes"]) {
+					attr.push("<dt>"+key+"</dt><dd>"+nodeObj["attributes"][key]+"</dd>")
+				}
+			}
+			
+			//Populate attributepane
+			var pane = $("#attributepane");
+			pane.find(".headertext").html("Node details");
+			pane.find(".bodytext").html("<h2>Attributes</h2><dl>"+attr.join("")+"</dl><h2>Neighbors</h2><ul>"+neighbors.join("")+"</ul>");
+			pane.delay(400).animate({width:'show'},350);
+		
+			$(".node").click(function() {
+				var nodeId=$(this).attr("data-id");
+				highlightNode(nodeId);
+			});
+
 		};
+		
 		s.bind('clickNode', function(e) {
 			highlightNode(e.data.node.id);
 		});
@@ -87,10 +130,10 @@ $( document ).ready(function() {
 		// node and edge with its original color.
 		s.bind('clickStage', function(e) {
 			s.graph.nodes().forEach(function(n) {
-				n.color = n.originalColor;
+				emph(n);
 			});
 			s.graph.edges().forEach(function(e) {
-		  		e.color = e.originalColor;
+		  		emph(e);
 			});
 			s.refresh();
 			$("#attributepane").delay(400).animate({width:'hide'},350);
@@ -110,20 +153,20 @@ $( document ).ready(function() {
 			var results=[];
 			s.graph.nodes().forEach(function(n) {
 				if (n.originalColor==cluster) {
-					n.color = n.originalColor;
+					emph(n);
 					toKeep[n.id]=true;
 					results.push('<li class="node" data-id="'+n.id+'"><a href="javascript:void(0);">'+n.label+'</a></li>');
 
 				} else {
-					n.color = '#eee';
+					unemph(n);
 				}
 			});
 
 			s.graph.edges().forEach(function(e) {
 				if (toKeep[e.source] && toKeep[e.target])
-					e.color = e.originalColor;
+					emph(e);
 				else
-					e.color = '#eee';
+					unemph(e);
 			});
 			s.refresh();
 		
@@ -193,6 +236,7 @@ $( document ).ready(function() {
 			});
 			graph_setup(s);
 		});
+		oii.config=config;
 	
 		//function setupGUI(config) {
 		// Initialise main interface elements

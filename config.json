@@ -1,6 +1,6 @@
 {
     "type": "network",
-    "data": "data.json",
+    "data": "data_twitter.json",
     "version": "2.0",
     "logo": {
         "file": "images/oii_brand.png",
@@ -20,7 +20,8 @@
     "features": {
         "search": true,
         "hoverBehavior": "default",
-        "groupSelectorAttribute": "color"
+        "groupSelectorAttribute": "color",
+        "clickBehavior":"hide"
     },
     "search":{
     	"fulltext":true
@@ -36,13 +37,13 @@
 			"defaultLabelBGColor": "#ddd",
 			"defaultHoverLabelBGColor": "#002147",
 			"defaultLabelHoverColor": "#fff",
-			"labelThreshold": 5,
+			"labelThreshold": 6,
 			"defaultEdgeType": "curve",
 			"hoverFontStyle": "bold",
 			"fontStyle": "bold",
 			"activeFontStyle": "bold",
 			"minNodeSize": 1,
-			"maxNodeSize": 8,
+			"maxNodeSize": 7,
 			"minEdgeSize": 0.2,
 			"maxEdgeSize": 0.5,
 			"minRatio": 0.75, 

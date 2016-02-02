@@ -10,6 +10,7 @@ margin: 0px;
 	left: 0;
 	right: 0;
 	position: absolute;
+	background-color: #eee;
 }
 
 html,body {
@@ -313,9 +314,44 @@ color: #000;
 	color: #000;
 	margin-bottom: 5px;
 	height: 14px;
-	border-bottom: 1px solid #999;
+	/*border-bottom: 1px solid #999;*/
 	padding: 10px 0 10px 0; /*t r b l*/
 	font-size:16px;
 	font-weight:bold;
 }
+
+#attributepane h2 {
+	color: #000;
+	margin-bottom: 5px;
+	height: 14px;
+	border-bottom: 1px solid #999;
+	padding: 10px 0 10px 0; /*t r b l*/
+	font-size:14px;
+	font-weight:bold;
+}
+
+#attributepane dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0
+}
+#attributepane dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  clear: left;
+}
+#attributepane dd {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+#attributepane dd:nth-of-type(even), #attributepane dt:nth-of-type(even) { 
+	background-color:#ccc;
+}​
+
 /*end right side attributepane*/
