@@ -208,8 +208,23 @@ $( document ).ready(function() {
 		
 			$(".node").click(function() {
 				var nodeId=$(this).attr("data-id");
+				var renderer = s.renderers[0];
+				renderer.dispatchEvent('outNode', {node:s.graph.nodes(nodeId)});
 				highlightNode(nodeId);
 			});
+			
+			$(".node").hover(function() {
+					//Mouse in
+					var nodeId=$(this).attr("data-id");
+					var renderer = s.renderers[0];
+					renderer.dispatchEvent('overNode', {node:s.graph.nodes(nodeId)});
+				}, function() {
+					//Mouse out
+					var nodeId=$(this).attr("data-id");
+					var renderer = s.renderers[0];
+					renderer.dispatchEvent('outNode', {node:s.graph.nodes(nodeId)});
+				}
+			);
 
 		});
 	
