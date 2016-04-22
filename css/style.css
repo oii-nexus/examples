@@ -3,6 +3,20 @@ padding: 0px;
 margin: 0px;
 }
 
+#controls {
+	position: absolute;
+	bottom: 15px;
+	width: 300px;
+	margin-left: -150px;
+	left: 50%;
+	height: 120px;
+	background: #FFF;
+}
+
+#layout {
+	padding-top: 10px;
+}
+
 
 #graph-container {
 	top: 0;
@@ -353,5 +367,7 @@ color: #000;
 #attributepane dd:nth-of-type(even), #attributepane dt:nth-of-type(even) { 
 	background-color:#ccc;
 }​
+
+
 
 /*end right side attributepane*/

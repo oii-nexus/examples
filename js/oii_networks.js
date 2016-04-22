@@ -31,11 +31,35 @@ $( document ).ready(function() {
 
 		return neighbors;
 	});
+	
+	sigma.classes.graph.addMethod('inNeighbors', function(nodeId) {
+		var k,
+			neighbors = {},
+			index = this.inNeighborsIndex[nodeId] || {};
+	
+		for (k in index)
+		  neighbors[k] = this.nodesIndex[k];
+
+		return neighbors;
+	});
+	
+	sigma.classes.graph.addMethod('outNeighbors', function(nodeId) {
+		var k,
+			neighbors = {},
+			index = this.outNeighborsIndex[nodeId] || {};
+	
+		for (k in index)
+		  neighbors[k] = this.nodesIndex[k];
+
+		return neighbors;
+	});
 
 	function graph_setup(s) {
 		console.log("Setting up the graph");
+		var filter = new sigma.plugins.filter(s); //Filters API
 		// We first need to save the original colors of our
 		// nodes and edges, like this:
+		s.config={};
 		s.clusters={};
 		s.graph.nodes().forEach(function(n) {
 			n.originalColor = n.color;
@@ -48,6 +72,9 @@ $( document ).ready(function() {
 		s.graph.edges().forEach(function(e) {
 			e.originalColor = e.color;
 		});
+		
+		//OLD: now in sigma itself -- define degree_sum, indegree_sum, and outdegree_sum for each node
+		
 
 		// When a node is clicked, we check for each node
 		// if it is a neighbor of the clicked one. If not,
@@ -56,6 +83,7 @@ $( document ).ready(function() {
 		// We do the same for the edges, and we only keep
 		// edges that have both extremities colored.
 		
+		//TODO: This code has to be updated to work with the Filters Plugin
 		var emph=function (obj) {obj.hidden=false;};
 		var unemph=function (obj) {obj.hidden=true;};
 		if (oii.config.features.clickBehavior) {
@@ -68,15 +96,21 @@ $( document ).ready(function() {
 		
 		
 		var highlightNode=function(nodeId) {
-			var toKeep = s.graph.neighbors(nodeId);
+			var toKeep = s.graph.neighbors(nodeId); //object/dict with full node objects
 			toKeep[nodeId] = true; //SAH -- example code had entire node object here
+			var action = $("#click_action select").val();
 			
 			var neighbors=new Array(toKeep.length);
 			var nodeObj=false;
+			
+			var outgoingEdges=new Array();
+			var incomingEdges=new Array();
 
+			var outgoingEdgeHTML=new Array();
+			var incomingEdgeHTML=new Array();
+				
 			s.graph.nodes().forEach(function(n) {
 				if (toKeep[n.id]) {
-					emph(n);
 					if (nodeObj===false && nodeId==n.id) {
 						//TODO: Force label of this node to be printed (this is focal node)
 						//Not possible? -- see force_labels.js
@@ -85,17 +119,54 @@ $( document ).ready(function() {
 						//TODO: separate out direction of links if specificed in config (incoming, outgoing, mutual)
 						neighbors.push('<li class="node" data-id="'+n.id+'"><a href="javascript:void(0);">'+n.label+'</a></li>');
 					}
-				} else {
-					unemph(n);
 				}
 			});
 
 			s.graph.edges().forEach(function(e) {
-				if (toKeep[e.source] && toKeep[e.target]) {
-					emph(e);
-				} else {
-					unemph(e);
+				if (e.source==nodeId) {
+					outgoingEdges.push(e);
+					outgoingEdgeHTML.push('<li class="node" data-id="'+e.target+'"><a href="javascript:void(0);">'+e.target+'</a> ('
+						+ e["size"] + ')</li>');
+				} 
+				if (e.target==nodeId) {
+					incomingEdges.push(e);
+					incomingEdgeHTML.push('<li class="node" data-id="'+e.source+'"><a href="javascript:void(0);">'+e.source+'</a> ('
+						+ e["size"] + ')</li>');
 				}
+			});
+			
+			var nodeSizes=new Object();
+			var keepEdges=new Object();
+			var vals=$('#slider-range').slider("option", "values");
+			if ("both"==action || "source"==action) {
+				outgoingEdges.forEach(function(e) {
+				keepEdges[e.id]=true;
+				nodeSizes[e.target]=e["size"];
+				});
+			} 
+			if ("both"==action || "target"==action) {
+				incomingEdges.forEach(function(e) {
+					keepEdges[e.id]=true;
+					if (e.source in nodeSizes) {
+						nodeSizes[e.source]+=e["size"];
+					} else {
+						nodeSizes[e.source]=e["size"];
+					}
+				});
+			}
+			
+			filter.undo('neighbor-nodes').neighborsOf(nodeId,'neighbor-nodes').apply();
+			filter.undo('neighbor-edges').edgesBy(function(e) {
+				/*return (("both"==action || "target"==action) && e in incomingEdges) ||
+					(("both"==action || "source"==action) && e in outgoingEdges)
+				*/
+				return (e.id in keepEdges);
+			},'neighbor-edges').apply();
+			
+			nodeSizes[nodeId]=1000; //Source node gets constant
+			s.graph.nodes(Object.keys(nodeSizes)).forEach(function(n) {
+				var size=Math.sqrt(nodeSizes[n.id]+1); //Avoid 0 weight issues
+				n.size=size;
 			});
 
 			// Always call refresh after modifying data
@@ -112,7 +183,27 @@ $( document ).ready(function() {
 			//Populate attributepane
 			var pane = $("#attributepane");
 			pane.find(".headertext").html("Node details");
-			pane.find(".bodytext").html("<h2 class=\"node\" data-id=\""+nodeObj.id+"\">"+nodeObj["label"]+"</h2><dl>"+attr.join("")+"</dl><h2>Neighbors</h2><ul>"+neighbors.join("")+"</ul>");
+			if (oii.config.informationPanel.groupByEdgeDirection) {
+				/*var outNodes=s.graph.outNeighbors(nodeId);
+				var outNodesHTML=new Array(outNodes.length);
+				var inNodes=s.graph.inNeighbors(nodeId);
+				var inNodesHTML=new Array(inNodes.length);
+				for (var n in outNodes) {
+					n=outNodes[n];
+					outNodesHTML.push('<li class="node" data-id="'+n.id+'"><a href="javascript:void(0);">'+n.label+'</a> ('
+						+ e["attributes"]["weight"] + ')</li>');
+				}
+				for (var n in inNodes) {
+					n=inNodes[n];
+					inNodesHTML.push('<li class="node" data-id="'+n.id+'"><a href="javascript:void(0);">'+n.label+'</a></li>');
+				}
+
+				pane.find(".bodytext").html("<h2 class=\"node\" data-id=\""+nodeObj.id+"\">"+nodeObj["label"]+"</h2><dl>"+attr.join("")+"</dl><h2>Outgoing neighbors</h2><ul>"+outNodesHTML.join("")+"</ul><h2>Incoming neighbors</h2><ul>"+inNodesHTML.join("")+"</ul>");
+			*/
+			pane.find(".bodytext").html("<h2 class=\"node\" data-id=\""+nodeObj.id+"\">"+nodeObj["label"]+"</h2><dl>"+attr.join("")+"</dl><h2>Outgoing neighbors</h2><ul>"+outgoingEdgeHTML.join("")+"</ul><h2>Incoming neighbors</h2><ul>"+incomingEdgeHTML.join("")+"</ul>");
+			} else {
+				pane.find(".bodytext").html("<h2 class=\"node\" data-id=\""+nodeObj.id+"\">"+nodeObj["label"]+"</h2><dl>"+attr.join("")+"</dl><h2>Neighbors</h2><ul>"+neighbors.join("")+"</ul>");
+			}
 			pane.delay(400).animate({width:'show'},350);
 	
 			$(".node").click(function() {
@@ -145,15 +236,57 @@ $( document ).ready(function() {
 		// When the stage is clicked, we just color each
 		// node and edge with its original color.
 		s.bind('clickStage', function(e) {
+			var action = $("#click_action select").val();
+			filter.undo('neighbor-nodes').undo('neighbor-edges').apply();
 			s.graph.nodes().forEach(function(n) {
-				emph(n);
-			});
-			s.graph.edges().forEach(function(e) {
-		  		emph(e);
+				if ("target"==action) {
+					n.size=Math.sqrt(s.graph.degree(n.id,'insum')); //n["attributes"]["indegree_sum"];
+				} else if ("source"==action) {
+					n.size=Math.sqrt(s.graph.degree(n.id,'outsum'));
+				} else {
+					n.size=Math.sqrt(s.graph.degree(n.id,'sum'));
+				}
+
 			});
 			s.refresh();
 			$("#attributepane").delay(400).animate({width:'hide'},350);
 		});
+		
+		//Code for edge slider
+		var max_edge=0;
+		s.graph.edges().forEach(function(e) {
+			var w=e["size"]; //TODO: Add parseFloat to ensure it is valid?
+			if (w>max_edge)
+				max_edge=w;
+			e["type"]="tapered";
+		});
+		s.refresh();
+		console.log("max_edge is " + max_edge);
+		$( "#slider-range" ).slider({
+		  range: true,
+		  min: 0,
+		  max: max_edge,
+		  values: [ 0, max_edge ],
+		  slide: function( event, ui ) {
+			$("#amount").val(""+ui.values[0] + " - " + ui.values[1]);
+			filter.undo('slider').edgesBy(function(e) {
+				return e["size"]>=ui.values[0] && e["size"]<=ui.values[1];
+			},'slider').apply();
+		  }
+		});
+			
+		
+		//Code for layout selector
+		$("#layout select").change(function() {
+				var str = $(this).val();
+				console.log("Changing layout to " + str);
+				s.graph.nodes().forEach(function(n) {
+					n["x"]=n["layouts"][str]["x"];
+					n["y"]=n["layouts"][str]["y"];
+				});
+				s.refresh();
+		});
+		
 	
 		//Populate the group selection box
 		var cluster_html=Array(s.clusters.length);
@@ -177,7 +310,8 @@ $( document ).ready(function() {
 				selector.addClass("close");
 			}
 		});
-			
+		
+		//TODO: Use filters API
 		$(".groupSelect").click(function(evt){
 			var cluster = $(this).attr("data-cluster");		
 			var toKeep={};
@@ -240,7 +374,7 @@ $( document ).ready(function() {
 					s.graph.nodes().forEach(function(n) {
 						if (regex.test(n.label)) {
 							//results[n.id]=n.label;
-							results.push('<li class="node" data-id="'+n.id+'"><a href="javascript:void(0);">'+n.label+'</a></li>');
+							results.push('<li class="search-result" data-id="'+n.id+'"><a href="javascript:void(0);">'+n.label+'</a></li>');
 						}
 					});
 					if (results.length==0) {
@@ -251,9 +385,10 @@ $( document ).ready(function() {
 					pane.find(".bodytext").html("<ul>"+results.join("")+"</ul>");
 					pane.delay(400).animate({width:'show'},350);
 				
-					$(".node").click(function() {
+					$(".search-result").click(function() {
 						var nodeId=$(this).attr("data-id");
 						highlightNode(nodeId);
+						$("#searchbox").val("");
 					});
 				}
 				return false;
@@ -345,6 +480,4 @@ $( document ).ready(function() {
 	   
 	
 	});
-	
-	
 });

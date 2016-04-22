@@ -8,15 +8,21 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
 <!-- JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="js/sigma.require.js"></script>
 <script src="js/sigma.parsers.json.min.js"></script>
+<script src="js/sigma.renderers.customEdgeShapes/sigma.canvas.edgehovers.tapered.js"></script>
+<script src="js/sigma.renderers.customEdgeShapes/sigma.canvas.edges.tapered.js"></script>
+<script src="js/sigma.plugins.filter.js"></script>
 <script src="js/oii_networks.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
 <!--CSS-->
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 <link rel="stylesheet" media="screen and (max-height: 770px)" href="css/tablet.css" />
 
+  
 <title>&nbsp;</title>
 
 </head>
@@ -65,6 +71,33 @@
 		</div>
 	</div>
 	<div id="information"></div>
+</div>
+
+<div id="controls">
+	<p>
+		<label for="amount">Edge threshold:</label>
+		<input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+	</p>
+ 	<div id="slider-range"></div>
+ 	
+ 	<div id="click_action">
+ 		Action on click:
+ 		<select name="click_action">
+ 			<option value="both" selected>All connected nodes</option>
+ 			<option value="source">Source</option>
+ 			<option value="target">Target</option>
+ 		</select>
+ 	</div>
+ 	
+ 	<div id="layout">
+ 		Layout:
+ 		<select name="layout">
+ 			<option value="geo" selected>Geographical</option>
+ 			<option value="fr">Force directed (fr)</option>
+ 			<option value="gem">Force directed (gem)</option>
+ 			<option value="mds">Force directed (mds)</option>
+ 		</select>
+ 	</div>
 </div>
 
 
