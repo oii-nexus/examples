@@ -3427,7 +3427,10 @@ if (typeof exports !== 'undefined') {
 
       inNeighborsCount: Object.create(null),
       outNeighborsCount: Object.create(null),
-      allNeighborsCount: Object.create(null)
+      allNeighborsCount: Object.create(null),
+      inNeighborsSum:Object.create(null), //SAH
+      outNeighborsSum:Object.create(null), //SAH
+      allNeighborsSum:Object.create(null) //SAH
     };
 
     // Execute bindings:
@@ -3758,6 +3761,9 @@ if (typeof exports !== 'undefined') {
     this.inNeighborsCount[id] = 0;
     this.outNeighborsCount[id] = 0;
     this.allNeighborsCount[id] = 0;
+    this.inNeighborsSum[id]=0;//SAH
+    this.outNeighborsSum[id]=0;//SAH
+    this.allNeighborsSum[id]=0;//SAH
 
     // Add the node to indexes:
     this.nodesArray.push(validNode);
@@ -3868,6 +3874,13 @@ if (typeof exports !== 'undefined') {
     this.outNeighborsCount[validEdge.source]++;
     this.allNeighborsCount[validEdge.target]++;
     this.allNeighborsCount[validEdge.source]++;
+    
+    //SAH
+	this.inNeighborsSum[validEdge.target]+=validEdge["size"];
+	this.allNeighborsSum[validEdge.target]+=validEdge["size"];
+	this.outNeighborsSum[validEdge.source]+=validEdge["size"];
+	this.allNeighborsSum[validEdge.source]+=validEdge["size"];
+
 
     return this;
   });
@@ -3912,6 +3925,11 @@ if (typeof exports !== 'undefined') {
     delete this.inNeighborsCount[id];
     delete this.outNeighborsCount[id];
     delete this.allNeighborsCount[id];
+    
+    //SAH
+    delete this.inNeighborsSum[id];
+    delete this.outNeightborsSum[id];
+    delete this.allNeighborsSum[id];
 
     for (k in this.nodesIndex) {
       delete this.inNeighborsIndex[k][id];
@@ -3971,6 +3989,9 @@ if (typeof exports !== 'undefined') {
     this.outNeighborsCount[edge.source]--;
     this.allNeighborsCount[edge.source]--;
     this.allNeighborsCount[edge.target]--;
+    
+    //SAH
+    //TODO: update inNeighborsSum,outNeighborsSum,allNeighborsSum
 
     return this;
   });
@@ -3995,6 +4016,10 @@ if (typeof exports !== 'undefined') {
     delete this.inNeighborsCount;
     delete this.outNeighborsCount;
     delete this.allNeighborsCount;
+    //SAH
+    delete this.inNeighborsSum;
+    delete this.outNeighborsSum;
+    delete this.allNeighborsSum;
   });
 
   /**
@@ -4019,6 +4044,11 @@ if (typeof exports !== 'undefined') {
     __emptyObject(this.inNeighborsCount);
     __emptyObject(this.outNeighborsCount);
     __emptyObject(this.allNeighborsCount);
+    
+    __emptyObject(this.inNeighborsSum); //SAH
+    __emptyObject(this.outNeighborsSum); //SAH
+    __emptyObject(this.allNeighborsSum); //SAH
+    
 
     return this;
   });
@@ -4058,12 +4088,16 @@ if (typeof exports !== 'undefined') {
         l;
 
     a = g.nodes || [];
-    for (i = 0, l = a.length; i < l; i++)
+    for (i = 0, l = a.length; i < l; i++){
+      //console.log(a[i]);
       this.addNode(a[i]);
+    }
 
     a = g.edges || [];
-    for (i = 0, l = a.length; i < l; i++)
+    for (i = 0, l = a.length; i < l; i++) {
+      //console.log(a[i]);
       this.addEdge(a[i]);
+    }
 
     return this;
   });
@@ -4124,7 +4158,10 @@ if (typeof exports !== 'undefined') {
     // Check which degree is required:
     which = {
       'in': this.inNeighborsCount,
-      'out': this.outNeighborsCount
+      'out': this.outNeighborsCount,
+      'insum': this.inNeighborsSum, // SAH
+      'outsum':this.outNeighborsSum, //SAH
+      'sum':this.allNeighborsSum //SAH
     }[which || ''] || this.allNeighborsCount;
 
     // Return the related node:
