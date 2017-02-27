@@ -17,15 +17,20 @@ margin: 0px;
 	padding-top: 10px;
 }
 
-
+#map-container,
 #graph-container {
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	position: absolute;
-	background-color: #eee;
 }
+/*background-color: #eee;*/
+
+#map-container {
+	transition: visibility 0.3s, opacity 0.3s linear;
+}
+
 
 html,body {
 	width: 100%;

@@ -258,7 +258,7 @@ $( document ).ready(function() {
 			var w=e["size"]; //TODO: Add parseFloat to ensure it is valid?
 			if (w>max_edge)
 				max_edge=w;
-			e["type"]="tapered";
+			//e["type"]="tapered";
 		});
 		s.refresh();
 		console.log("max_edge is " + max_edge);
@@ -406,6 +406,7 @@ $( document ).ready(function() {
 			return;
 		}
 		console.log("Config OK");
+		sigma.renderers.def = sigma.renderers.canvas;
 		sigma.parsers.json(config["data"],function(graph) {
 			s = new sigma({
 				graph: graph,
@@ -416,6 +417,50 @@ $( document ).ready(function() {
 				settings: config["sigma"]["settings"]
 			});
 			graph_setup(s);
+						
+			s.graph.nodes().forEach(function(n) {
+				n.x=n.layouts["geo"].x;
+				n.y=n.layouts["geo"].y;
+				n.lat=-1*n.layouts["geo"].y;
+				n.lng=n.layouts["geo"].x;
+			});
+			s.refresh();
+			
+			var geojson = new L.geoJson(MAP);		
+			var map = L.map('map-container', {
+			  layers: [geojson],
+			  // avoid unexpected moves:
+			  scrollWheelZoom: 'center',
+			  doubleClickZoom: 'center',
+			  bounceAtZoomLimits: false,
+			  keyboard: false,
+			  crs: L.CRS.EPSG4326,
+			  zoom: 1,
+			  center: [0,0]
+			});//.setView([0, 0], 1)// Init view centered
+			geojson.setStyle({"weight":2,"fill":false,"color":"#666666"});
+			/*$.ajax({
+			dataType: "json",
+			url: "map.geojson",
+			success: function(data) {
+			    $(data.features).each(function(key, data) {
+				   geojson.addData(data);
+			    });
+			}
+			}).error(function() {});*/
+			var leafletPlugin = sigma.plugins.leaflet(s, map, {});
+			
+			leafletPlugin.bind('enabled', function(event) {
+			  console.log(event);
+			});
+			leafletPlugin.bind('disabled', function(event) {
+			  console.log(event);
+			});
+
+
+			leafletPlugin.enable();
+			leafletPlugin.fitBounds();
+
 		});
 		oii.config=config;
 	

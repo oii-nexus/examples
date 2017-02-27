@@ -1,6 +1,6 @@
 {
     "type": "network",
-    "data": "london.json",
+    "data": "immigration.json",
     "version": "2.0",
     "logo": {
         "file": "images/oii_brand.png",
@@ -8,13 +8,13 @@
         "text": "Oxford Internet Institute"
     },
     "text": {
-        "title": "Trips between London boroughs by public transport",
+        "title": "Immigration between coutnries",
         "intro": "",
         "more": ""
     },
     "legend": {
-        "nodeLabel": "London borough",
-        "edgeLabel": "Public transit journey between boroughs",
+        "nodeLabel": "Country",
+        "edgeLabel": "Flow of immigrants",
         "colorLabel": ""
     },
     "features": {
@@ -27,7 +27,7 @@
     	"fulltext":true
     },
     "informationPanel": {
-        "groupByEdgeDirection": true,
+        "groupByEdgeDirection": false,
         "imageAttribute": "Image File"
     },
     "sigma": {
@@ -42,12 +42,14 @@
 			"hoverFontStyle": "bold",
 			"fontStyle": "bold",
 			"activeFontStyle": "bold",
-			"minNodeSize": 1,
-			"maxNodeSize": 7,
-			"minEdgeSize": 0.1,
-			"maxEdgeSize": 10,
+			"minNodeSize": 4,
+			"maxNodeSize": 4,
+			"minEdgeSize": 1,
+			"maxEdgeSize": 1,
 			"minRatio": 0.75, 
-			"maxRatio": 20
+			"maxRatio": 20,
+			"edgeColor":"default",
+			"defaultEdgeColor":"#AAAAAA"
 		}
     }
     

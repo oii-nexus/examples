@@ -1,0 +1,4428 @@
+{
+    "nodes": [
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Afghanistan",
+            "label": "Afghanistan",
+            "layouts": {
+                "fr": {
+                    "y": 0.25169573194826106,
+                    "x": 0.5904524937309854
+                },
+                "geo": {
+                    "y": -34.39303875545461,
+                    "x": 67.21393538455946
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Albania",
+            "label": "Albania",
+            "layouts": {
+                "fr": {
+                    "y": 0.7699870073198445,
+                    "x": 0.8069827914364193
+                },
+                "geo": {
+                    "y": -41.17858224355707,
+                    "x": 20.05009069884792
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Algeria",
+            "label": "Algeria",
+            "layouts": {
+                "fr": {
+                    "y": 0.8879043490149918,
+                    "x": 0.7475222095332636
+                },
+                "geo": {
+                    "y": -28.406635118450655,
+                    "x": 2.5350050211076085
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Angola",
+            "label": "Angola",
+            "layouts": {
+                "fr": {
+                    "y": 0.5804982166871422,
+                    "x": 0.9924576598029775
+                },
+                "geo": {
+                    "y": 12.089817154133499,
+                    "x": 17.773731536276312
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "Argentina",
+            "label": "Argentina",
+            "layouts": {
+                "fr": {
+                    "y": 0.6989816332011083,
+                    "x": 0.8179300516847025
+                },
+                "geo": {
+                    "y": 36.53357415259626,
+                    "x": -64.84931565766205
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Armenia",
+            "label": "Armenia",
+            "layouts": {
+                "fr": {
+                    "y": 0.33409105406110423,
+                    "x": 0.9617224304750268
+                },
+                "geo": {
+                    "y": -40.09494792569831,
+                    "x": 45.147562464130964
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Oceania",
+            "size": 1,
+            "id": "Australia",
+            "label": "Australia",
+            "layouts": {
+                "fr": {
+                    "y": 0.4331024354079006,
+                    "x": 0.44784297438098625
+                },
+                "geo": {
+                    "y": 24.81301090213422,
+                    "x": 133.72800397836073
+                }
+            },
+            "color": "#a6761d"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Austria",
+            "label": "Austria",
+            "layouts": {
+                "fr": {
+                    "y": 0.6440055644893521,
+                    "x": 0.9291835399868444
+                },
+                "geo": {
+                    "y": -47.57469841875197,
+                    "x": 13.428973535904355
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Azerbaijan",
+            "label": "Azerbaijan",
+            "layouts": {
+                "fr": {
+                    "y": 0.3553396182254822,
+                    "x": 0.9700415266387059
+                },
+                "geo": {
+                    "y": -40.28029134803447,
+                    "x": 47.56340150852122
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Bangladesh",
+            "label": "Bangladesh",
+            "layouts": {
+                "fr": {
+                    "y": 0.28709344301310297,
+                    "x": 0.44292200894534
+                },
+                "geo": {
+                    "y": -23.591084795366086,
+                    "x": 90.60635112354159
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Belarus",
+            "label": "Belarus",
+            "layouts": {
+                "fr": {
+                    "y": 0.41685385134957786,
+                    "x": 0.89418579126665
+                },
+                "geo": {
+                    "y": -53.409275130992064,
+                    "x": 27.978536642340885
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Belgium",
+            "label": "Belgium",
+            "layouts": {
+                "fr": {
+                    "y": 0.8090939133087928,
+                    "x": 0.6695502295805402
+                },
+                "geo": {
+                    "y": -50.64940250492394,
+                    "x": 4.482081335377457
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Belize",
+            "label": "Belize",
+            "layouts": {
+                "fr": {
+                    "y": 0.8663686308328162,
+                    "x": 0.8399836318282128
+                },
+                "geo": {
+                    "y": -17.231572134545942,
+                    "x": -88.70039783453348
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Benin",
+            "label": "Benin",
+            "layouts": {
+                "fr": {
+                    "y": 0.5954402309036047,
+                    "x": 0.010478984877644459
+                },
+                "geo": {
+                    "y": -9.354823569816825,
+                    "x": 2.307998391770541
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Bermuda",
+            "label": "Bermuda",
+            "layouts": {
+                "fr": {
+                    "y": 0.3966466282772087,
+                    "x": 0.9894674512930686
+                },
+                "geo": {
+                    "y": -32.31110788245919,
+                    "x": -64.77025431588487
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Bhutan",
+            "label": "Bhutan",
+            "layouts": {
+                "fr": {
+                    "y": 0.9989378708362328,
+                    "x": 0.4685341939427705
+                },
+                "geo": {
+                    "y": -27.404055646244824,
+                    "x": 90.4925329558221
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "Bolivia",
+            "label": "Bolivia",
+            "layouts": {
+                "fr": {
+                    "y": 0.7179400517653819,
+                    "x": 0.9464865184679742
+                },
+                "geo": {
+                    "y": 16.750851980765784,
+                    "x": -64.34930620202505
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Bosnia and Herzegovina",
+            "label": "Bosnia and Herzegovina",
+            "layouts": {
+                "fr": {
+                    "y": 0.05290656085158315,
+                    "x": 0.7181220439053987
+                },
+                "geo": {
+                    "y": -44.212511079818896,
+                    "x": 17.797272133069256
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Botswana",
+            "label": "Botswana",
+            "layouts": {
+                "fr": {
+                    "y": 0.9679804054041591,
+                    "x": 0.672408677212608
+                },
+                "geo": {
+                    "y": 22.166966732685438,
+                    "x": 23.83508122067014
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "Brazil",
+            "label": "Brazil",
+            "layouts": {
+                "fr": {
+                    "y": 0.6235179736058051,
+                    "x": 0.34415104276269587
+                },
+                "geo": {
+                    "y": 10.993103414076993,
+                    "x": -55.022026637637424
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Brunei",
+            "label": "Brunei",
+            "layouts": {
+                "fr": {
+                    "y": 0.25135173666379806,
+                    "x": 0.0649682167538397
+                },
+                "geo": {
+                    "y": -4.710022283825967,
+                    "x": 114.93008385032202
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Bulgaria",
+            "label": "Bulgaria",
+            "layouts": {
+                "fr": {
+                    "y": 0.9183586786671035,
+                    "x": 0.7399182481887463
+                },
+                "geo": {
+                    "y": -42.81402364023777,
+                    "x": 25.20934106475919
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Burkina Faso",
+            "label": "Burkina Faso",
+            "layouts": {
+                "fr": {
+                    "y": 0.004955319923560176,
+                    "x": 0.4291710734388878
+                },
+                "geo": {
+                    "y": -12.161487201321778,
+                    "x": -1.7555008203008198
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Burundi",
+            "label": "Burundi",
+            "layouts": {
+                "fr": {
+                    "y": 0.7753139005522518,
+                    "x": 0.917425815729777
+                },
+                "geo": {
+                    "y": 3.359789003967909,
+                    "x": 29.85870674728877
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Cambodia",
+            "label": "Cambodia",
+            "layouts": {
+                "fr": {
+                    "y": 0.007518668785468875,
+                    "x": 0.515906802631572
+                },
+                "geo": {
+                    "y": -12.67824744461169,
+                    "x": 105.03697408495105
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Cameroon",
+            "label": "Cameroon",
+            "layouts": {
+                "fr": {
+                    "y": 0.008896434241128104,
+                    "x": 0.4055166137598058
+                },
+                "geo": {
+                    "y": -6.586397514781482,
+                    "x": 13.062575162697662
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Canada",
+            "label": "Canada",
+            "layouts": {
+                "fr": {
+                    "y": 0.4550691261841086,
+                    "x": 0.40971919106277915
+                },
+                "geo": {
+                    "y": -60,
+                    "x": -105
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Central African Republic",
+            "label": "Central African Republic",
+            "layouts": {
+                "fr": {
+                    "y": 0.4157356371362796,
+                    "x": 0.9946016847506756
+                },
+                "geo": {
+                    "y": -6.373468243791887,
+                    "x": 20.524317182663562
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Chad",
+            "label": "Chad",
+            "layouts": {
+                "fr": {
+                    "y": 0.4302438182677452,
+                    "x": 0.9924297096840576
+                },
+                "geo": {
+                    "y": -15.057443474891445,
+                    "x": 18.29602618634475
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "Chile",
+            "label": "Chile",
+            "layouts": {
+                "fr": {
+                    "y": 0.6337832322301672,
+                    "x": 0.9774796293680371
+                },
+                "geo": {
+                    "y": 37.64594819093877,
+                    "x": -71.564207642
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "China",
+            "label": "China",
+            "layouts": {
+                "fr": {
+                    "y": 0.3800647061096626,
+                    "x": 0.25381855113270685
+                },
+                "geo": {
+                    "y": -37.98367623731305,
+                    "x": 106.38506803992848
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "Colombia",
+            "label": "Colombia",
+            "layouts": {
+                "fr": {
+                    "y": 0.7555534967572931,
+                    "x": 0.46711901230610064
+                },
+                "geo": {
+                    "y": -4.002581419095424,
+                    "x": -72.5078691900873
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Costa Rica",
+            "label": "Costa Rica",
+            "layouts": {
+                "fr": {
+                    "y": 0.08604801847562553,
+                    "x": 0.2904393165163713
+                },
+                "geo": {
+                    "y": -9.893241558627848,
+                    "x": -84.17195452860948
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Croatia",
+            "label": "Croatia",
+            "layouts": {
+                "fr": {
+                    "y": 0.25220783114070705,
+                    "x": 0.7563145429849631
+                },
+                "geo": {
+                    "y": -44.72956286074245,
+                    "x": 16.57746090373541
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Cuba",
+            "label": "Cuba",
+            "layouts": {
+                "fr": {
+                    "y": 0.6685435629915555,
+                    "x": 0.24679557269404198
+                },
+                "geo": {
+                    "y": -21.66240051270155,
+                    "x": -79.48965014662845
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Cyprus",
+            "label": "Cyprus",
+            "layouts": {
+                "fr": {
+                    "y": 0.9941345320094046,
+                    "x": 0.5517242376580757
+                },
+                "geo": {
+                    "y": -34.929860388161735,
+                    "x": 33.11409294126045
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Czech Republic",
+            "label": "Czech Republic",
+            "layouts": {
+                "fr": {
+                    "y": 0.5936913403371866,
+                    "x": 0.9438888244931548
+                },
+                "geo": {
+                    "y": -49.76822900054667,
+                    "x": 15.553039687448297
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Democratic Republic of the Congo",
+            "label": "Democratic Republic of the Congo",
+            "layouts": {
+                "fr": {
+                    "y": 0.5078630132534183,
+                    "x": 1.0
+                },
+                "geo": {
+                    "y": 3.93878022785124,
+                    "x": 23.266062679084882
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Denmark",
+            "label": "Denmark",
+            "layouts": {
+                "fr": {
+                    "y": 0.028750295396397344,
+                    "x": 0.6698215763808631
+                },
+                "geo": {
+                    "y": -56.27605950276439,
+                    "x": 9.511601326621696
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Djibouti",
+            "label": "Djibouti",
+            "layouts": {
+                "fr": {
+                    "y": 0.6582437731203914,
+                    "x": 0.02716972948539276
+                },
+                "geo": {
+                    "y": -11.776182259952769,
+                    "x": 42.562640377444524
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Dominican Republic",
+            "label": "Dominican Republic",
+            "layouts": {
+                "fr": {
+                    "y": 0.49838376871611245,
+                    "x": 0.13295771660015798
+                },
+                "geo": {
+                    "y": -18.80381794383564,
+                    "x": -70.35996889276802
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Oceania",
+            "size": 1,
+            "id": "East Timor",
+            "label": "East Timor",
+            "layouts": {
+                "fr": {
+                    "y": 0.935620460118183,
+                    "x": 0.2557817135313749
+                },
+                "geo": {
+                    "y": 8.753675889827388,
+                    "x": 126.05950236088984
+                }
+            },
+            "color": "#a6761d"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "Ecuador",
+            "label": "Ecuador",
+            "layouts": {
+                "fr": {
+                    "y": 0.7093933522612943,
+                    "x": 0.4437834998369191
+                },
+                "geo": {
+                    "y": 1.6836222241323462,
+                    "x": -78.5720153747424
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Egypt",
+            "label": "Egypt",
+            "layouts": {
+                "fr": {
+                    "y": 0.14237238397386487,
+                    "x": 0.5903144837134423
+                },
+                "geo": {
+                    "y": -26.654133094300647,
+                    "x": 30.598882271079656
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "El Salvador",
+            "label": "El Salvador",
+            "layouts": {
+                "fr": {
+                    "y": 0.7175108022068851,
+                    "x": 0.21531955626051819
+                },
+                "geo": {
+                    "y": -13.736064468752499,
+                    "x": -88.87489468637317
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Equatorial Guinea",
+            "label": "Equatorial Guinea",
+            "layouts": {
+                "fr": {
+                    "y": 0.9856872620878594,
+                    "x": 0.38517120404618577
+                },
+                "geo": {
+                    "y": -1.6123063000187245,
+                    "x": 10.372953116215529
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Eritrea",
+            "label": "Eritrea",
+            "layouts": {
+                "fr": {
+                    "y": 0.18491369120141926,
+                    "x": 0.11635228754940033
+                },
+                "geo": {
+                    "y": -14.966737432453774,
+                    "x": 39.416340511159845
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Estonia",
+            "label": "Estonia",
+            "layouts": {
+                "fr": {
+                    "y": 0.868355481939623,
+                    "x": 0.16373451859456653
+                },
+                "geo": {
+                    "y": -58.64588307802539,
+                    "x": 25.783103413799903
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Ethiopia",
+            "label": "Ethiopia",
+            "layouts": {
+                "fr": {
+                    "y": 0.13351283587409202,
+                    "x": 0.8346677027711864
+                },
+                "geo": {
+                    "y": -8.765231970450419,
+                    "x": 39.90713801736957
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "Falkland Islands",
+            "label": "Falkland Islands",
+            "layouts": {
+                "fr": {
+                    "y": 0.9495004793995836,
+                    "x": 0.2799663395969991
+                },
+                "geo": {
+                    "y": 51.71812215737399,
+                    "x": -59.484396820751485
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "Oceania",
+            "size": 1,
+            "id": "Fiji",
+            "label": "Fiji",
+            "layouts": {
+                "fr": {
+                    "y": 0.8887850934006359,
+                    "x": 0.18466682851740718
+                },
+                "geo": {
+                    "y": 17.81226114300196,
+                    "x": 178.00061916235347
+                }
+            },
+            "color": "#a6761d"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Finland",
+            "label": "Finland",
+            "layouts": {
+                "fr": {
+                    "y": 0.11620025003487693,
+                    "x": 0.1787800926823955
+                },
+                "geo": {
+                    "y": -65.20337623763618,
+                    "x": 25.822623692843884
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "France",
+            "label": "France",
+            "layouts": {
+                "fr": {
+                    "y": 0.6920637200550004,
+                    "x": 0.6265294082598339
+                },
+                "geo": {
+                    "y": -46.75623376184518,
+                    "x": 2.160939691865837
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "French Guiana",
+            "label": "French Guiana",
+            "layouts": {
+                "fr": {
+                    "y": 0.6880746208659542,
+                    "x": 0.9659497727807052
+                },
+                "geo": {
+                    "y": -3.806946176401908,
+                    "x": -53.31840490885029
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "Oceania",
+            "size": 1,
+            "id": "French Southern and Antarctic Lands",
+            "label": "French Southern and Antarctic Lands",
+            "layouts": {
+                "fr": {
+                    "y": 0.9042300181762094,
+                    "x": 0.20913621878354893
+                },
+                "geo": {
+                    "y": 49.28581201328883,
+                    "x": 69.53813252458703
+                }
+            },
+            "color": "#a6761d"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Gabon",
+            "label": "Gabon",
+            "layouts": {
+                "fr": {
+                    "y": 0.04914188698927915,
+                    "x": 0.28232600784728984
+                },
+                "geo": {
+                    "y": 0.6676415816215021,
+                    "x": 11.795597155685433
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Gambia",
+            "label": "Gambia",
+            "layouts": {
+                "fr": {
+                    "y": 0.9793967385923584,
+                    "x": 0.35761422937492404
+                },
+                "geo": {
+                    "y": -13.478721340712951,
+                    "x": -15.36772654360773
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Georgia",
+            "label": "Georgia",
+            "layouts": {
+                "fr": {
+                    "y": 0.21910700641904376,
+                    "x": 0.9126176329524494
+                },
+                "geo": {
+                    "y": -42.23185432881898,
+                    "x": 43.33786908304425
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Germany",
+            "label": "Germany",
+            "layouts": {
+                "fr": {
+                    "y": 0.5710368465205943,
+                    "x": 0.7176889465084797
+                },
+                "geo": {
+                    "y": -51.074689338181,
+                    "x": 10.38367892542112
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Ghana",
+            "label": "Ghana",
+            "layouts": {
+                "fr": {
+                    "y": 0.6858148965208256,
+                    "x": 0.04084522944522471
+                },
+                "geo": {
+                    "y": -7.979342537019121,
+                    "x": -1.2340979318793743
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Greece",
+            "label": "Greece",
+            "layouts": {
+                "fr": {
+                    "y": 0.7359187213804842,
+                    "x": 0.8637743766066363
+                },
+                "geo": {
+                    "y": -39.59248759423604,
+                    "x": 23.257102046314163
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Greenland",
+            "label": "Greenland",
+            "layouts": {
+                "fr": {
+                    "y": 0.09145286918093953,
+                    "x": 0.20966839511909832
+                },
+                "geo": {
+                    "y": -76.0190077987928,
+                    "x": -40.36150082443013
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Guatemala",
+            "label": "Guatemala",
+            "layouts": {
+                "fr": {
+                    "y": 0.7406991810452772,
+                    "x": 0.3168664383295894
+                },
+                "geo": {
+                    "y": -15.867317099109485,
+                    "x": -90.31600805813848
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Guinea",
+            "label": "Guinea",
+            "layouts": {
+                "fr": {
+                    "y": 0.29396479858016905,
+                    "x": 0.04755459107545677
+                },
+                "geo": {
+                    "y": -10.295259165139877,
+                    "x": -11.027404418879547
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Guinea Bissau",
+            "label": "Guinea Bissau",
+            "layouts": {
+                "fr": {
+                    "y": 0.0,
+                    "x": 0.4638047682755392
+                },
+                "geo": {
+                    "y": -12.029855564868088,
+                    "x": -15.110702565467971
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "Guyana",
+            "label": "Guyana",
+            "layouts": {
+                "fr": {
+                    "y": 0.6218429533057506,
+                    "x": 0.15289291012447373
+                },
+                "geo": {
+                    "y": -4.716990669649233,
+                    "x": -58.951888214047855
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Haiti",
+            "label": "Haiti",
+            "layouts": {
+                "fr": {
+                    "y": 0.5403861373248623,
+                    "x": 0.12153599541367958
+                },
+                "geo": {
+                    "y": -18.82906906805195,
+                    "x": -72.81425299770632
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Honduras",
+            "label": "Honduras",
+            "layouts": {
+                "fr": {
+                    "y": 0.7390899590577351,
+                    "x": 0.26573390473470754
+                },
+                "geo": {
+                    "y": -14.756989570932795,
+                    "x": -86.40890665549823
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Hungary",
+            "label": "Hungary",
+            "layouts": {
+                "fr": {
+                    "y": 0.01679073325201646,
+                    "x": 0.6351657303232938
+                },
+                "geo": {
+                    "y": -47.29135732560944,
+                    "x": 19.320311245787828
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Iceland",
+            "label": "Iceland",
+            "layouts": {
+                "fr": {
+                    "y": 0.9919065057165891,
+                    "x": 0.5885676282078456
+                },
+                "geo": {
+                    "y": -65.12006763036229,
+                    "x": -19.594950805710592
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "India",
+            "label": "India",
+            "layouts": {
+                "fr": {
+                    "y": 0.284030390340077,
+                    "x": 0.40874632829417634
+                },
+                "geo": {
+                    "y": -23.823874942242327,
+                    "x": 82.15094297110194
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Indonesia",
+            "label": "Indonesia",
+            "layouts": {
+                "fr": {
+                    "y": 0.1075120153526069,
+                    "x": 0.5189788622893432
+                },
+                "geo": {
+                    "y": 7.4,
+                    "x": 110
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Iran",
+            "label": "Iran",
+            "layouts": {
+                "fr": {
+                    "y": 0.37315705574135055,
+                    "x": 0.5197990461262939
+                },
+                "geo": {
+                    "y": -32.80305674634339,
+                    "x": 53.87621805141311
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Iraq",
+            "label": "Iraq",
+            "layouts": {
+                "fr": {
+                    "y": 0.942955880853784,
+                    "x": 0.7237657138992611
+                },
+                "geo": {
+                    "y": -32.96309589615899,
+                    "x": 43.93395864836433
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Ireland",
+            "label": "Ireland",
+            "layouts": {
+                "fr": {
+                    "y": 0.5725516251017457,
+                    "x": 0.3495700856236966
+                },
+                "geo": {
+                    "y": -53.224549803474275,
+                    "x": -8.069953006161729
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Israel",
+            "label": "Israel",
+            "layouts": {
+                "fr": {
+                    "y": 0.10191699218626524,
+                    "x": 0.8070109217353223
+                },
+                "geo": {
+                    "y": -30.9,
+                    "x": 34.9
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Italy",
+            "label": "Italy",
+            "layouts": {
+                "fr": {
+                    "y": 0.6151329280130965,
+                    "x": 0.6201406249521578
+                },
+                "geo": {
+                    "y": -42.97294209724154,
+                    "x": 12.875132680373573
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Ivory Coast",
+            "label": "Ivory Coast",
+            "layouts": {
+                "fr": {
+                    "y": 0.03481950819127561,
+                    "x": 0.3238378157635634
+                },
+                "geo": {
+                    "y": -7.531818768696637,
+                    "x": -5.701205685203989
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Jamaica",
+            "label": "Jamaica",
+            "layouts": {
+                "fr": {
+                    "y": 0.5558130135288122,
+                    "x": 0.17735365097197497
+                },
+                "geo": {
+                    "y": -18.12782638737018,
+                    "x": -77.27912712294602
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Japan",
+            "label": "Japan",
+            "layouts": {
+                "fr": {
+                    "y": 0.4818340770489913,
+                    "x": 0.29691538846184085
+                },
+                "geo": {
+                    "y": -35.69541137319855,
+                    "x": 135.9294939821675
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Jordan",
+            "label": "Jordan",
+            "layouts": {
+                "fr": {
+                    "y": 0.9882481897304324,
+                    "x": 0.5343939131586931
+                },
+                "geo": {
+                    "y": -31.34616000120698,
+                    "x": 36.947888010231694
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Kazakhstan",
+            "label": "Kazakhstan",
+            "layouts": {
+                "fr": {
+                    "y": 0.4982438054775082,
+                    "x": 0.8392743324750126
+                },
+                "geo": {
+                    "y": -47.875768362021915,
+                    "x": 65.59256399364186
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Kenya",
+            "label": "Kenya",
+            "layouts": {
+                "fr": {
+                    "y": 0.31146354125278203,
+                    "x": 0.9578398519261131
+                },
+                "geo": {
+                    "y": -0.8612539964816168,
+                    "x": 37.87288800066047
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Kosovo",
+            "label": "Kosovo",
+            "layouts": {
+                "fr": {
+                    "y": 0.14336258896944595,
+                    "x": 0.8526225044974702
+                },
+                "geo": {
+                    "y": -42.552173582087086,
+                    "x": 20.900772819797083
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Kuwait",
+            "label": "Kuwait",
+            "layouts": {
+                "fr": {
+                    "y": 0.17124629163605895,
+                    "x": 0.47622919571437056
+                },
+                "geo": {
+                    "y": -29.25627834484484,
+                    "x": 47.575946313321545
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Kyrgyzstan",
+            "label": "Kyrgyzstan",
+            "layouts": {
+                "fr": {
+                    "y": 0.28007657130534924,
+                    "x": 0.9254270448695441
+                },
+                "geo": {
+                    "y": -41.32015723727024,
+                    "x": 74.10571749797889
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Laos",
+            "label": "Laos",
+            "layouts": {
+                "fr": {
+                    "y": 0.0015062806372200096,
+                    "x": 0.4877529608774227
+                },
+                "geo": {
+                    "y": -18.26158383345932,
+                    "x": 103.86159017999424
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Latvia",
+            "label": "Latvia",
+            "layouts": {
+                "fr": {
+                    "y": 0.1793365501742304,
+                    "x": 0.8638921178276802
+                },
+                "geo": {
+                    "y": -56.78918769745894,
+                    "x": 24.53354771231337
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Lebanon",
+            "label": "Lebanon",
+            "layouts": {
+                "fr": {
+                    "y": 0.9737893071184482,
+                    "x": 0.645590617709662
+                },
+                "geo": {
+                    "y": -33.85450088916923,
+                    "x": 35.84598512220671
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Lesotho",
+            "label": "Lesotho",
+            "layouts": {
+                "fr": {
+                    "y": 0.2743348864420461,
+                    "x": 0.07018305475550211
+                },
+                "geo": {
+                    "y": 29.634416682167625,
+                    "x": 28.169423987042506
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Liberia",
+            "label": "Liberia",
+            "layouts": {
+                "fr": {
+                    "y": 0.9686976651097863,
+                    "x": 0.3319495849807984
+                },
+                "geo": {
+                    "y": -6.47334004234645,
+                    "x": -9.294468152819027
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Libya",
+            "label": "Libya",
+            "layouts": {
+                "fr": {
+                    "y": 0.9893492252044999,
+                    "x": 0.44980118202834857
+                },
+                "geo": {
+                    "y": -27.10648210852832,
+                    "x": 18.027536052104754
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Lithuania",
+            "label": "Lithuania",
+            "layouts": {
+                "fr": {
+                    "y": 0.2561807911490851,
+                    "x": 0.9380436371691427
+                },
+                "geo": {
+                    "y": -55.30586446368838,
+                    "x": 23.790476789724522
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Luxembourg",
+            "label": "Luxembourg",
+            "layouts": {
+                "fr": {
+                    "y": 0.4296302000727512,
+                    "x": 0.006664334032675217
+                },
+                "geo": {
+                    "y": -49.771783913220524,
+                    "x": 5.964058102741049
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Macedonia",
+            "label": "Macedonia",
+            "layouts": {
+                "fr": {
+                    "y": 0.36241790699862947,
+                    "x": 0.02037922412122534
+                },
+                "geo": {
+                    "y": -41.60288372209169,
+                    "x": 21.7050971190926
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Madagascar",
+            "label": "Madagascar",
+            "layouts": {
+                "fr": {
+                    "y": 0.22760045433850493,
+                    "x": 0.08195058967499863
+                },
+                "geo": {
+                    "y": 18.75128330492442,
+                    "x": 46.97630310467802
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Malawi",
+            "label": "Malawi",
+            "layouts": {
+                "fr": {
+                    "y": 0.4940830589208742,
+                    "x": 0.0
+                },
+                "geo": {
+                    "y": 12.983343451105187,
+                    "x": 34.144837522378175
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Malaysia",
+            "label": "Malaysia",
+            "layouts": {
+                "fr": {
+                    "y": 0.10158746738124251,
+                    "x": 0.36704786351185537
+                },
+                "geo": {
+                    "y": -4,
+                    "x": 102
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Mali",
+            "label": "Mali",
+            "layouts": {
+                "fr": {
+                    "y": 0.07075351191829558,
+                    "x": 0.2507110723538412
+                },
+                "geo": {
+                    "y": -16.78954899141304,
+                    "x": -4.28265841510835
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Malta",
+            "label": "Malta",
+            "layouts": {
+                "fr": {
+                    "y": 0.08711952972570498,
+                    "x": 0.7803920851263598
+                },
+                "geo": {
+                    "y": -35.89105242331749,
+                    "x": 14.445446061463858
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Mauritania",
+            "label": "Mauritania",
+            "layouts": {
+                "fr": {
+                    "y": 0.7458639243971263,
+                    "x": 0.935193706624367
+                },
+                "geo": {
+                    "y": -20.61203273019087,
+                    "x": -10.473310496427015
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Mexico",
+            "label": "Mexico",
+            "layouts": {
+                "fr": {
+                    "y": 0.671675796908339,
+                    "x": 0.3777362301381741
+                },
+                "geo": {
+                    "y": -24.22943227030623,
+                    "x": -103.44763805316231
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Moldova",
+            "label": "Moldova",
+            "layouts": {
+                "fr": {
+                    "y": 0.2893220965149499,
+                    "x": 0.9511943533308751
+                },
+                "geo": {
+                    "y": -47.135067292443544,
+                    "x": 28.39228861757168
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Mongolia",
+            "label": "Mongolia",
+            "layouts": {
+                "fr": {
+                    "y": 0.9223661264892552,
+                    "x": 0.23088708790295456
+                },
+                "geo": {
+                    "y": -47.16313230032841,
+                    "x": 103.95297370006756
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Montenegro",
+            "label": "Montenegro",
+            "layouts": {
+                "fr": {
+                    "y": 0.9598858624056159,
+                    "x": 0.3057131910532256
+                },
+                "geo": {
+                    "y": -42.722091540834505,
+                    "x": 19.34118513379424
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Morocco",
+            "label": "Morocco",
+            "layouts": {
+                "fr": {
+                    "y": 0.7582049627664013,
+                    "x": 0.6901978316080766
+                },
+                "geo": {
+                    "y": -28.849055062813353,
+                    "x": -9.38923402822644
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Mozambique",
+            "label": "Mozambique",
+            "layouts": {
+                "fr": {
+                    "y": 0.3176401596970447,
+                    "x": 0.039705651762551995
+                },
+                "geo": {
+                    "y": 17.552641144582044,
+                    "x": 34.98587813777111
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Myanmar",
+            "label": "Myanmar",
+            "layouts": {
+                "fr": {
+                    "y": 0.021048379734090503,
+                    "x": 0.3792819949744403
+                },
+                "geo": {
+                    "y": -19.660765054129815,
+                    "x": 97.12110832979889
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Namibia",
+            "label": "Namibia",
+            "layouts": {
+                "fr": {
+                    "y": 0.7754587666805127,
+                    "x": 0.08463888784506321
+                },
+                "geo": {
+                    "y": 21.42267436530255,
+                    "x": 18.091378153991283
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Nepal",
+            "label": "Nepal",
+            "layouts": {
+                "fr": {
+                    "y": 0.16327328945493824,
+                    "x": 0.5469182691995118
+                },
+                "geo": {
+                    "y": -28.184408631580066,
+                    "x": 84.21191772365488
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Netherlands",
+            "label": "Netherlands",
+            "layouts": {
+                "fr": {
+                    "y": 0.7101789317779635,
+                    "x": 0.8888652616743521
+                },
+                "geo": {
+                    "y": -52.14357754299438,
+                    "x": 5.390489019135041
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Oceania",
+            "size": 1,
+            "id": "New Caledonia",
+            "label": "New Caledonia",
+            "layouts": {
+                "fr": {
+                    "y": 0.7194018076495583,
+                    "x": 0.05185121653617143
+                },
+                "geo": {
+                    "y": 21.25203283180785,
+                    "x": 165.53581352791903
+                }
+            },
+            "color": "#a6761d"
+        },
+        {
+            "region": "Oceania",
+            "size": 1,
+            "id": "New Zealand",
+            "label": "New Zealand",
+            "layouts": {
+                "fr": {
+                    "y": 0.4315154150349631,
+                    "x": 0.5692586042845532
+                },
+                "geo": {
+                    "y": 43.780380395162524,
+                    "x": 170.7166225737321
+                }
+            },
+            "color": "#a6761d"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Nicaragua",
+            "label": "Nicaragua",
+            "layouts": {
+                "fr": {
+                    "y": 0.27049542117937203,
+                    "x": 0.2713434549488054
+                },
+                "geo": {
+                    "y": -12.928995264674548,
+                    "x": -85.048388061684
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Niger",
+            "label": "Niger",
+            "layouts": {
+                "fr": {
+                    "y": 0.4616256897557307,
+                    "x": 0.002350211357606722
+                },
+                "geo": {
+                    "y": -16.619894003462306,
+                    "x": 8.768381297267887
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Nigeria",
+            "label": "Nigeria",
+            "layouts": {
+                "fr": {
+                    "y": 0.6139108193368665,
+                    "x": 0.09780431675594892
+                },
+                "geo": {
+                    "y": -9.606187880895602,
+                    "x": 8.142994777955197
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "North Korea",
+            "label": "North Korea",
+            "layouts": {
+                "fr": {
+                    "y": 0.5494106820296673,
+                    "x": 0.9976588956878463
+                },
+                "geo": {
+                    "y": -40.27037296463496,
+                    "x": 127.40651130419094
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Northern Cyprus",
+            "label": "Northern Cyprus",
+            "layouts": {
+                "fr": {
+                    "y": 0.9990579153431395,
+                    "x": 0.4969450013981467
+                },
+                "geo": {
+                    "y": -35.31017818151448,
+                    "x": 33.65852355650835
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Norway",
+            "label": "Norway",
+            "layouts": {
+                "fr": {
+                    "y": 0.5267783017505814,
+                    "x": 0.002899106145209292
+                },
+                "geo": {
+                    "y": -62,
+                    "x": 10
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Oman",
+            "label": "Oman",
+            "layouts": {
+                "fr": {
+                    "y": 0.19765782458289327,
+                    "x": 0.377166531488917
+                },
+                "geo": {
+                    "y": -20.59407134832542,
+                    "x": 55.94417519911262
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Pakistan",
+            "label": "Pakistan",
+            "layouts": {
+                "fr": {
+                    "y": 0.31111036001757353,
+                    "x": 0.4784557439470262
+                },
+                "geo": {
+                    "y": -30.210196625058895,
+                    "x": 69.31227137754692
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Panama",
+            "label": "Panama",
+            "layouts": {
+                "fr": {
+                    "y": 0.9829214758696957,
+                    "x": 0.6185876968801919
+                },
+                "geo": {
+                    "y": -8.499874642215566,
+                    "x": -80.12371756628892
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Oceania",
+            "size": 1,
+            "id": "Papua New Guinea",
+            "label": "Papua New Guinea",
+            "layouts": {
+                "fr": {
+                    "y": 0.8478863180170217,
+                    "x": 0.14203659483759865
+                },
+                "geo": {
+                    "y": 7.227221532494243,
+                    "x": 145.25035897008237
+                }
+            },
+            "color": "#a6761d"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "Paraguay",
+            "label": "Paraguay",
+            "layouts": {
+                "fr": {
+                    "y": 0.8027470009138216,
+                    "x": 0.8982112057541999
+                },
+                "geo": {
+                    "y": 23.42521623781028,
+                    "x": -58.26062540300138
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "Peru",
+            "label": "Peru",
+            "layouts": {
+                "fr": {
+                    "y": 0.4450801255620433,
+                    "x": 0.1413686518109593
+                },
+                "geo": {
+                    "y": 8.457250401144915,
+                    "x": -74.22326113883577
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Philippines",
+            "label": "Philippines",
+            "layouts": {
+                "fr": {
+                    "y": 0.37284534415334475,
+                    "x": 0.42966114039718123
+                },
+                "geo": {
+                    "y": -15.311463686395447,
+                    "x": 121.76783543044367
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Poland",
+            "label": "Poland",
+            "layouts": {
+                "fr": {
+                    "y": 0.5477494978728469,
+                    "x": 0.556440780622512
+                },
+                "geo": {
+                    "y": -52.06231002496286,
+                    "x": 19.35585483230647
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Portugal",
+            "label": "Portugal",
+            "layouts": {
+                "fr": {
+                    "y": 0.6682283996393235,
+                    "x": 0.49154500307845816
+                },
+                "geo": {
+                    "y": -39.621710433037464,
+                    "x": -8.017451088737253
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Oceania",
+            "size": 1,
+            "id": "Puerto Rico",
+            "label": "Puerto Rico",
+            "layouts": {
+                "fr": {
+                    "y": 0.6761269419369615,
+                    "x": 0.17514038288348707
+                },
+                "geo": {
+                    "y": -18.236397137711638,
+                    "x": -66.46707878069577
+                }
+            },
+            "color": "#a6761d"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Qatar",
+            "label": "Qatar",
+            "layouts": {
+                "fr": {
+                    "y": 0.10445652571667331,
+                    "x": 0.2712633483432776
+                },
+                "geo": {
+                    "y": -25.321875300172106,
+                    "x": 51.179312820543345
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Republic of Serbia",
+            "label": "Republic of Serbia",
+            "layouts": {
+                "fr": {
+                    "y": 0.06453187475989708,
+                    "x": 0.7410992622524714
+                },
+                "geo": {
+                    "y": -44.14280198974418,
+                    "x": 20.84055916890384
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Republic of the Congo",
+            "label": "Republic of the Congo",
+            "layouts": {
+                "fr": {
+                    "y": 0.8953737384874368,
+                    "x": 0.802040912589739
+                },
+                "geo": {
+                    "y": 0.8163679949369422,
+                    "x": 14.810535438783965
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Romania",
+            "label": "Romania",
+            "layouts": {
+                "fr": {
+                    "y": 0.6732115458669824,
+                    "x": 0.7318953389504946
+                },
+                "geo": {
+                    "y": -45.74183090374414,
+                    "x": 25.076482442582982
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Russia",
+            "label": "Russia",
+            "layouts": {
+                "fr": {
+                    "y": 0.3824287316657385,
+                    "x": 0.809355377814309
+                },
+                "geo": {
+                    "y": -61.16978363393353,
+                    "x": 98.64473421920499
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Rwanda",
+            "label": "Rwanda",
+            "layouts": {
+                "fr": {
+                    "y": 0.378940243231026,
+                    "x": 0.9868997441941675
+                },
+                "geo": {
+                    "y": 2.0475408652305243,
+                    "x": 29.894076349911817
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Saudi Arabia",
+            "label": "Saudi Arabia",
+            "layouts": {
+                "fr": {
+                    "y": 0.32027283100148146,
+                    "x": 0.6056148601372648
+                },
+                "geo": {
+                    "y": -24.191009726871435,
+                    "x": 44.54307106262068
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Senegal",
+            "label": "Senegal",
+            "layouts": {
+                "fr": {
+                    "y": 0.3970988335532172,
+                    "x": 0.01051577115205679
+                },
+                "geo": {
+                    "y": -14.000750937846583,
+                    "x": -14.709746755679701
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Sierra Leone",
+            "label": "Sierra Leone",
+            "layouts": {
+                "fr": {
+                    "y": 0.7491992488094549,
+                    "x": 0.06587250374575271
+                },
+                "geo": {
+                    "y": -8.505967555956822,
+                    "x": -11.72419642818298
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Slovakia",
+            "label": "Slovakia",
+            "layouts": {
+                "fr": {
+                    "y": 0.06931849606174584,
+                    "x": 0.7599473933175891
+                },
+                "geo": {
+                    "y": -48.74179018105838,
+                    "x": 19.65394680191463
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Slovenia",
+            "label": "Slovenia",
+            "layouts": {
+                "fr": {
+                    "y": 0.6572112805231285,
+                    "x": 0.9756952656405513
+                },
+                "geo": {
+                    "y": -46.141134021209986,
+                    "x": 15.013889665359788
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Oceania",
+            "size": 1,
+            "id": "Solomon Islands",
+            "label": "Solomon Islands",
+            "layouts": {
+                "fr": {
+                    "y": 0.9191878672455358,
+                    "x": 0.7730862281069989
+                },
+                "geo": {
+                    "y": 7.9007159405950045,
+                    "x": 159.10194121905405
+                }
+            },
+            "color": "#a6761d"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Somalia",
+            "label": "Somalia",
+            "layouts": {
+                "fr": {
+                    "y": 0.1841426005313763,
+                    "x": 0.8810377741416706
+                },
+                "geo": {
+                    "y": -5.228636013213571,
+                    "x": 46.08207887110995
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Somaliland",
+            "label": "Somaliland",
+            "layouts": {
+                "fr": {
+                    "y": 0.8349719262270093,
+                    "x": 0.8726941184596712
+                },
+                "geo": {
+                    "y": -9.913235038241663,
+                    "x": 45.9793382830078
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "South Africa",
+            "label": "South Africa",
+            "layouts": {
+                "fr": {
+                    "y": 0.3112021112645467,
+                    "x": 0.1960950054172937
+                },
+                "geo": {
+                    "y": 28.47559167567814,
+                    "x": 24.762136043107105
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "South Korea",
+            "label": "South Korea",
+            "layouts": {
+                "fr": {
+                    "y": 0.4575237071275109,
+                    "x": 0.20761777734287185
+                },
+                "geo": {
+                    "y": -36.491255513274815,
+                    "x": 127.66785211168546
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "South Sudan",
+            "label": "South Sudan",
+            "layouts": {
+                "fr": {
+                    "y": 0.23248803043506588,
+                    "x": 0.9195745605261573
+                },
+                "geo": {
+                    "y": -7.829037229499119,
+                    "x": 30.22473419629223
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Spain",
+            "label": "Spain",
+            "layouts": {
+                "fr": {
+                    "y": 0.6965770444681946,
+                    "x": 0.597860388627678
+                },
+                "geo": {
+                    "y": -40.59829118577261,
+                    "x": -3.7816962562378684
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Sri Lanka",
+            "label": "Sri Lanka",
+            "layouts": {
+                "fr": {
+                    "y": 0.12699016638905955,
+                    "x": 0.6831549232366426
+                },
+                "geo": {
+                    "y": -7.8024598698147845,
+                    "x": 80.64495741152828
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Sudan",
+            "label": "Sudan",
+            "layouts": {
+                "fr": {
+                    "y": 0.30589978610465685,
+                    "x": 0.8485552488667276
+                },
+                "geo": {
+                    "y": -15.34684774917316,
+                    "x": 29.838285933721906
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "Suriname",
+            "label": "Suriname",
+            "layouts": {
+                "fr": {
+                    "y": 0.9580345296567511,
+                    "x": 0.6997224834345767
+                },
+                "geo": {
+                    "y": -4.077714435121083,
+                    "x": -55.88127368410999
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Swaziland",
+            "label": "Swaziland",
+            "layouts": {
+                "fr": {
+                    "y": 0.8020174153721472,
+                    "x": 0.10139741117565351
+                },
+                "geo": {
+                    "y": 26.483508366234346,
+                    "x": 31.395531237782226
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Sweden",
+            "label": "Sweden",
+            "layouts": {
+                "fr": {
+                    "y": 0.021249056798171757,
+                    "x": 0.3494878270799458
+                },
+                "geo": {
+                    "y": -62.80162481286154,
+                    "x": 16.89021194571399
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Switzerland",
+            "label": "Switzerland",
+            "layouts": {
+                "fr": {
+                    "y": 0.7111652505145032,
+                    "x": 0.6444400388963907
+                },
+                "geo": {
+                    "y": -46.77900328211074,
+                    "x": 8.205377457091245
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Syria",
+            "label": "Syria",
+            "layouts": {
+                "fr": {
+                    "y": 0.7790313818890232,
+                    "x": 0.6251647490655338
+                },
+                "geo": {
+                    "y": -35.114503096803745,
+                    "x": 38.66273331094121
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Taiwan",
+            "label": "Taiwan",
+            "layouts": {
+                "fr": {
+                    "y": 0.560348352052687,
+                    "x": 0.0040873526823996635
+                },
+                "geo": {
+                    "y": -23.692380142486456,
+                    "x": 120.99635711299516
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Tajikistan",
+            "label": "Tajikistan",
+            "layouts": {
+                "fr": {
+                    "y": 0.4782180344565451,
+                    "x": 0.9872802145045795
+                },
+                "geo": {
+                    "y": -38.71666965267492,
+                    "x": 70.8703310310363
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Thailand",
+            "label": "Thailand",
+            "layouts": {
+                "fr": {
+                    "y": 0.159383054570383,
+                    "x": 0.41707672968877074
+                },
+                "geo": {
+                    "y": -13.33571948295745,
+                    "x": 100.68867900018373
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "The Bahamas",
+            "label": "The Bahamas",
+            "layouts": {
+                "fr": {
+                    "y": 0.8265946098368667,
+                    "x": 0.12023649726754831
+                },
+                "geo": {
+                    "y": -24.473770125602417,
+                    "x": -77.90048300776246
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Togo",
+            "label": "Togo",
+            "layouts": {
+                "fr": {
+                    "y": 0.20426358164051367,
+                    "x": 0.09692092088897934
+                },
+                "geo": {
+                    "y": -8.565797976446124,
+                    "x": 0.9644281159555304
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "Trinidad and Tobago",
+            "label": "Trinidad and Tobago",
+            "layouts": {
+                "fr": {
+                    "y": 0.612205908450616,
+                    "x": 0.21175038060977422
+                },
+                "geo": {
+                    "y": -10.418939995112924,
+                    "x": -61.36574687274573
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Tunisia",
+            "label": "Tunisia",
+            "layouts": {
+                "fr": {
+                    "y": 0.8635218232570253,
+                    "x": 0.8013367888991088
+                },
+                "geo": {
+                    "y": -34.129592871732505,
+                    "x": 9.670610277344093
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Turkey",
+            "label": "Turkey",
+            "layouts": {
+                "fr": {
+                    "y": 0.774272606036904,
+                    "x": 0.7597142080483137
+                },
+                "geo": {
+                    "y": -38.854180249368824,
+                    "x": 35.72518064920276
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Turkmenistan",
+            "label": "Turkmenistan",
+            "layouts": {
+                "fr": {
+                    "y": 0.20436387713047263,
+                    "x": 0.8988462617572134
+                },
+                "geo": {
+                    "y": -39.35747385336657,
+                    "x": 58.514114977238314
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Uganda",
+            "label": "Uganda",
+            "layouts": {
+                "fr": {
+                    "y": 0.4546838699029938,
+                    "x": 0.9955148030784455
+                },
+                "geo": {
+                    "y": -1.2747631633986078,
+                    "x": 32.23834121964018
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "Ukraine",
+            "label": "Ukraine",
+            "layouts": {
+                "fr": {
+                    "y": 0.48866204448133715,
+                    "x": 0.7139093710387707
+                },
+                "geo": {
+                    "y": -48.436144929423314,
+                    "x": 31.235258964566658
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "United Arab Emirates",
+            "label": "United Arab Emirates",
+            "layouts": {
+                "fr": {
+                    "y": 0.21458402185062084,
+                    "x": 0.4884209833940812
+                },
+                "geo": {
+                    "y": -24.03904612998458,
+                    "x": 54.22946229293971
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Europe",
+            "size": 1,
+            "id": "United Kingdom",
+            "label": "United Kingdom",
+            "layouts": {
+                "fr": {
+                    "y": 0.47909522881323774,
+                    "x": 0.4799368095407281
+                },
+                "geo": {
+                    "y": -53.9748112440574,
+                    "x": -3.045293208325898
+                }
+            },
+            "color": "#7570b3"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "United Republic of Tanzania",
+            "label": "United Republic of Tanzania",
+            "layouts": {
+                "fr": {
+                    "y": 0.6261447559214883,
+                    "x": 0.018975187290931998
+                },
+                "geo": {
+                    "y": 6.306507174828157,
+                    "x": 34.77901636672323
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "North America & Caribbean",
+            "size": 1,
+            "id": "United States of America",
+            "label": "United States of America",
+            "layouts": {
+                "fr": {
+                    "y": 0.5176299628236882,
+                    "x": 0.38495128569368475
+                },
+                "geo": {
+                    "y": -39.31984469965386,
+                    "x": -93.81838373988748
+                }
+            },
+            "color": "#1b9e77"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "Uruguay",
+            "label": "Uruguay",
+            "layouts": {
+                "fr": {
+                    "y": 0.991709290452618,
+                    "x": 0.4138399366367814
+                },
+                "geo": {
+                    "y": 32.746243416235615,
+                    "x": -56.00629828936849
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Uzbekistan",
+            "label": "Uzbekistan",
+            "layouts": {
+                "fr": {
+                    "y": 0.471083813636826,
+                    "x": 0.8950871049242712
+                },
+                "geo": {
+                    "y": -41.52946942910224,
+                    "x": 64.4370454599671
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Oceania",
+            "size": 1,
+            "id": "Vanuatu",
+            "label": "Vanuatu",
+            "layouts": {
+                "fr": {
+                    "y": 0.009475139019555963,
+                    "x": 0.60036825975249
+                },
+                "geo": {
+                    "y": 15.230716191224754,
+                    "x": 166.91793547245604
+                }
+            },
+            "color": "#a6761d"
+        },
+        {
+            "region": "South America",
+            "size": 1,
+            "id": "Venezuela",
+            "label": "Venezuela",
+            "layouts": {
+                "fr": {
+                    "y": 0.8804629885424576,
+                    "x": 0.5247677300239688
+                },
+                "geo": {
+                    "y": -7.400610738665054,
+                    "x": -66.71654432431205
+                }
+            },
+            "color": "#d95f02"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Vietnam",
+            "label": "Vietnam",
+            "layouts": {
+                "fr": {
+                    "y": 0.4018627847653601,
+                    "x": 0.3264303024271997
+                },
+                "geo": {
+                    "y": -16.437290492907696,
+                    "x": 106.2178493694898
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Palestine",
+            "label": "Palestine",
+            "layouts": {
+                "fr": {
+                    "y": 0.9734230555828892,
+                    "x": 0.5750340893785161
+                },
+                "geo": {
+                    "y": -31.911071430049294,
+                    "x": 35.237150690801485
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Western Sahara",
+            "label": "Western Sahara",
+            "layouts": {
+                "fr": {
+                    "y": 0.004792824948136895,
+                    "x": 0.5641837180565543
+                },
+                "geo": {
+                    "y": -24.083297655991373,
+                    "x": -12.557061696929471
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Yemen",
+            "label": "Yemen",
+            "layouts": {
+                "fr": {
+                    "y": 0.16106467609464944,
+                    "x": 0.7677560537095576
+                },
+                "geo": {
+                    "y": -15.96711980724901,
+                    "x": 47.5110680467869
+                }
+            },
+            "color": "#e7298a"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Zambia",
+            "label": "Zambia",
+            "layouts": {
+                "fr": {
+                    "y": 0.16127533713334086,
+                    "x": 0.1306279601612757
+                },
+                "geo": {
+                    "y": 13.102475808933239,
+                    "x": 27.815036603141788
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Sub-Saharan Africa",
+            "size": 1,
+            "id": "Zimbabwe",
+            "label": "Zimbabwe",
+            "layouts": {
+                "fr": {
+                    "y": 0.14876863959872066,
+                    "x": 0.14940096487168464
+                },
+                "geo": {
+                    "y": 18.810534892143945,
+                    "x": 29.526644694312214
+                }
+            },
+            "color": "#66a61e"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Singapore",
+            "label": "Singapore",
+            "layouts": {
+                "fr": {
+                    "y": 0.17838055254486163,
+                    "x": 0.20828436668989142
+                },
+                "geo": {
+                    "y": -1.2,
+                    "x": 103.8
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Hong Kong",
+            "label": "Hong Kong",
+            "layouts": {
+                "fr": {
+                    "y": 0.43983595269812403,
+                    "x": 0.2693632063009782
+                },
+                "geo": {
+                    "y": -22.2,
+                    "x": 114.2
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Asia",
+            "size": 1,
+            "id": "Macao",
+            "label": "Macao",
+            "layouts": {
+                "fr": {
+                    "y": 0.35010104590633995,
+                    "x": 0.04779185265707135
+                },
+                "geo": {
+                    "y": -22,
+                    "x": 113.2
+                }
+            },
+            "color": "#e6ab02"
+        },
+        {
+            "region": "Middle East & North Africa",
+            "size": 1,
+            "id": "Bahrain",
+            "label": "Bahrain",
+            "layouts": {
+                "fr": {
+                    "y": 0.1264210461280438,
+                    "x": 0.23888419067441596
+                },
+                "geo": {
+                    "y": -26,
+                    "x": 50.4
+                }
+            },
+            "color": "#e7298a"
+        }
+    ],
+    "edges": [
+        {
+            "target": "Mexico",
+            "size": 1,
+            "id": 0,
+            "color": "#1b9e77",
+            "source": "United States of America"
+        },
+        {
+            "target": "Russia",
+            "size": 1,
+            "id": 1,
+            "source": "Ukraine"
+        },
+        {
+            "target": "Kazakhstan",
+            "size": 1,
+            "id": 2,
+            "color": "#e6ab02",
+            "source": "Russia"
+        },
+        {
+            "target": "India",
+            "size": 1,
+            "id": 3,
+            "source": "United Arab Emirates"
+        },
+        {
+            "target": "Bangladesh",
+            "size": 1,
+            "id": 4,
+            "color": "#e6ab02",
+            "source": "India"
+        },
+        {
+            "target": "India",
+            "size": 1,
+            "id": 5,
+            "source": "Pakistan"
+        },
+        {
+            "target": "China",
+            "size": 1,
+            "id": 6,
+            "color": "#e6ab02",
+            "source": "Hong Kong"
+        },
+        {
+            "target": "Afghanistan",
+            "size": 1,
+            "id": 7,
+            "color": "#e7298a",
+            "source": "Iran"
+        },
+        {
+            "target": "Jordan",
+            "size": 1,
+            "id": 8,
+            "color": "#e7298a",
+            "source": "Palestine"
+        },
+        {
+            "target": "China",
+            "size": 1,
+            "id": 9,
+            "source": "United States of America"
+        },
+        {
+            "target": "Russia",
+            "size": 1,
+            "id": 10,
+            "color": "#e6ab02",
+            "source": "Uzbekistan"
+        },
+        {
+            "target": "Germany",
+            "size": 1,
+            "id": 11,
+            "color": "#7570b3",
+            "source": "Poland"
+        },
+        {
+            "target": "Myanmar",
+            "size": 1,
+            "id": 12,
+            "color": "#e6ab02",
+            "source": "Thailand"
+        },
+        {
+            "target": "India",
+            "size": 1,
+            "id": 13,
+            "source": "United States of America"
+        },
+        {
+            "target": "Afghanistan",
+            "size": 1,
+            "id": 14,
+            "color": "#e7298a",
+            "source": "Pakistan"
+        },
+        {
+            "target": "Philippines",
+            "size": 1,
+            "id": 15,
+            "source": "United States of America"
+        },
+        {
+            "target": "Germany",
+            "size": 1,
+            "id": 16,
+            "source": "Turkey"
+        },
+        {
+            "target": "Puerto Rico",
+            "size": 1,
+            "id": 17,
+            "source": "United States of America"
+        },
+        {
+            "target": "India",
+            "size": 1,
+            "id": 18,
+            "source": "Saudi Arabia"
+        },
+        {
+            "target": "Burkina Faso",
+            "size": 1,
+            "id": 19,
+            "color": "#66a61e",
+            "source": "Ivory Coast"
+        },
+        {
+            "target": "Syria",
+            "size": 1,
+            "id": 20,
+            "color": "#e7298a",
+            "source": "Turkey"
+        },
+        {
+            "target": "Belarus",
+            "size": 1,
+            "id": 21,
+            "source": "Russia"
+        },
+        {
+            "target": "Algeria",
+            "size": 1,
+            "id": 22,
+            "source": "France"
+        },
+        {
+            "target": "Australia",
+            "size": 1,
+            "id": 23,
+            "source": "United Kingdom"
+        },
+        {
+            "target": "United States of America",
+            "size": 1,
+            "id": 24,
+            "source": "Vietnam"
+        },
+        {
+            "target": "Indonesia",
+            "size": 1,
+            "id": 25,
+            "source": "Saudi Arabia"
+        },
+        {
+            "target": "El Salvador",
+            "size": 1,
+            "id": 26,
+            "color": "#1b9e77",
+            "source": "United States of America"
+        },
+        {
+            "target": "Lebanon",
+            "size": 1,
+            "id": 27,
+            "color": "#e7298a",
+            "source": "Syria"
+        },
+        {
+            "target": "Germany",
+            "size": 1,
+            "id": 28,
+            "source": "Kazakhstan"
+        },
+        {
+            "target": "Germany",
+            "size": 1,
+            "id": 29,
+            "source": "Russia"
+        },
+        {
+            "target": "Malaysia",
+            "size": 1,
+            "id": 30,
+            "color": "#e6ab02",
+            "source": "Singapore"
+        },
+        {
+            "target": "South Korea",
+            "size": 1,
+            "id": 31,
+            "source": "United States of America"
+        },
+        {
+            "target": "Canada",
+            "size": 1,
+            "id": 32,
+            "color": "#1b9e77",
+            "source": "United States of America"
+        },
+        {
+            "target": "Cuba",
+            "size": 1,
+            "id": 33,
+            "color": "#1b9e77",
+            "source": "United States of America"
+        },
+        {
+            "target": "Pakistan",
+            "size": 1,
+            "id": 34,
+            "color": "#e7298a",
+            "source": "Saudi Arabia"
+        },
+        {
+            "target": "Indonesia",
+            "size": 1,
+            "id": 35,
+            "color": "#e6ab02",
+            "source": "Malaysia"
+        },
+        {
+            "target": "India",
+            "size": 1,
+            "id": 36,
+            "source": "Kuwait"
+        },
+        {
+            "target": "Italy",
+            "size": 1,
+            "id": 37,
+            "color": "#7570b3",
+            "source": "Romania"
+        },
+        {
+            "target": "Colombia",
+            "size": 1,
+            "id": 38,
+            "color": "#d95f02",
+            "source": "Venezuela"
+        },
+        {
+            "target": "India",
+            "size": 1,
+            "id": 39,
+            "color": "#e6ab02",
+            "source": "Nepal"
+        },
+        {
+            "target": "Laos",
+            "size": 1,
+            "id": 40,
+            "color": "#e6ab02",
+            "source": "Thailand"
+        },
+        {
+            "target": "Bangladesh",
+            "size": 1,
+            "id": 41,
+            "source": "Saudi Arabia"
+        },
+        {
+            "target": "Dominican Republic",
+            "size": 1,
+            "id": 42,
+            "color": "#1b9e77",
+            "source": "United States of America"
+        },
+        {
+            "target": "France",
+            "size": 1,
+            "id": 43,
+            "source": "Morocco"
+        },
+        {
+            "target": "China",
+            "size": 1,
+            "id": 44,
+            "color": "#e6ab02",
+            "source": "South Korea"
+        },
+        {
+            "target": "Egypt",
+            "size": 1,
+            "id": 45,
+            "color": "#e7298a",
+            "source": "United Arab Emirates"
+        },
+        {
+            "target": "United Kingdom",
+            "size": 1,
+            "id": 46,
+            "source": "United States of America"
+        },
+        {
+            "target": "Bangladesh",
+            "size": 1,
+            "id": 47,
+            "source": "United Arab Emirates"
+        },
+        {
+            "target": "Guatemala",
+            "size": 1,
+            "id": 48,
+            "color": "#1b9e77",
+            "source": "United States of America"
+        },
+        {
+            "target": "Pakistan",
+            "size": 1,
+            "id": 49,
+            "color": "#e7298a",
+            "source": "United Arab Emirates"
+        },
+        {
+            "target": "Cambodia",
+            "size": 1,
+            "id": 50,
+            "color": "#e6ab02",
+            "source": "Thailand"
+        },
+        {
+            "target": "France",
+            "size": 1,
+            "id": 51,
+            "color": "#7570b3",
+            "source": "Portugal"
+        },
+        {
+            "target": "Azerbaijan",
+            "size": 1,
+            "id": 52,
+            "source": "Russia"
+        },
+        {
+            "target": "India",
+            "size": 1,
+            "id": 53,
+            "source": "United Kingdom"
+        },
+        {
+            "target": "India",
+            "size": 1,
+            "id": 54,
+            "source": "Oman"
+        },
+        {
+            "target": "Germany",
+            "size": 1,
+            "id": 55,
+            "source": "United States of America"
+        },
+        {
+            "target": "Ireland",
+            "size": 1,
+            "id": 56,
+            "color": "#7570b3",
+            "source": "United Kingdom"
+        },
+        {
+            "target": "Egypt",
+            "size": 1,
+            "id": 57,
+            "color": "#e7298a",
+            "source": "Saudi Arabia"
+        },
+        {
+            "target": "Poland",
+            "size": 1,
+            "id": 58,
+            "color": "#7570b3",
+            "source": "United Kingdom"
+        },
+        {
+            "target": "Argentina",
+            "size": 1,
+            "id": 59,
+            "color": "#d95f02",
+            "source": "Paraguay"
+        },
+        {
+            "target": "Canada",
+            "size": 1,
+            "id": 60,
+            "source": "China"
+        },
+        {
+            "target": "Jamaica",
+            "size": 1,
+            "id": 61,
+            "color": "#1b9e77",
+            "source": "United States of America"
+        },
+        {
+            "target": "Australia",
+            "size": 1,
+            "id": 62,
+            "color": "#a6761d",
+            "source": "New Zealand"
+        },
+        {
+            "target": "Colombia",
+            "size": 1,
+            "id": 63,
+            "source": "United States of America"
+        },
+        {
+            "target": "Russia",
+            "size": 1,
+            "id": 64,
+            "color": "#e6ab02",
+            "source": "Tajikistan"
+        },
+        {
+            "target": "Morocco",
+            "size": 1,
+            "id": 65,
+            "source": "Spain"
+        },
+        {
+            "target": "Kyrgyzstan",
+            "size": 1,
+            "id": 66,
+            "color": "#e6ab02",
+            "source": "Russia"
+        },
+        {
+            "target": "Jordan",
+            "size": 1,
+            "id": 67,
+            "color": "#e7298a",
+            "source": "Syria"
+        },
+        {
+            "target": "Canada",
+            "size": 1,
+            "id": 68,
+            "source": "United Kingdom"
+        },
+        {
+            "target": "South Sudan",
+            "size": 1,
+            "id": 69,
+            "source": "Sudan"
+        },
+        {
+            "target": "Romania",
+            "size": 1,
+            "id": 70,
+            "color": "#7570b3",
+            "source": "Spain"
+        },
+        {
+            "target": "China",
+            "size": 1,
+            "id": 71,
+            "color": "#e6ab02",
+            "source": "Japan"
+        },
+        {
+            "target": "India",
+            "size": 1,
+            "id": 72,
+            "source": "Qatar"
+        },
+        {
+            "target": "Germany",
+            "size": 1,
+            "id": 73,
+            "color": "#7570b3",
+            "source": "Italy"
+        },
+        {
+            "target": "Saudi Arabia",
+            "size": 1,
+            "id": 74,
+            "color": "#e7298a",
+            "source": "Syria"
+        },
+        {
+            "target": "Canada",
+            "size": 1,
+            "id": 75,
+            "source": "India"
+        },
+        {
+            "target": "Haiti",
+            "size": 1,
+            "id": 76,
+            "color": "#1b9e77",
+            "source": "United States of America"
+        },
+        {
+            "target": "Germany",
+            "size": 1,
+            "id": 77,
+            "color": "#7570b3",
+            "source": "Romania"
+        },
+        {
+            "target": "Bangladesh",
+            "size": 1,
+            "id": 78,
+            "color": "#e6ab02",
+            "source": "Malaysia"
+        },
+        {
+            "target": "Saudi Arabia",
+            "size": 1,
+            "id": 79,
+            "color": "#e7298a",
+            "source": "Yemen"
+        },
+        {
+            "target": "Kazakhstan",
+            "size": 1,
+            "id": 80,
+            "source": "Ukraine"
+        },
+        {
+            "target": "Czech Republic",
+            "size": 1,
+            "id": 81,
+            "color": "#7570b3",
+            "source": "Germany"
+        },
+        {
+            "target": "Philippines",
+            "size": 1,
+            "id": 82,
+            "source": "United Arab Emirates"
+        },
+        {
+            "target": "Canada",
+            "size": 1,
+            "id": 83,
+            "source": "Philippines"
+        },
+        {
+            "target": "Armenia",
+            "size": 1,
+            "id": 84,
+            "source": "Russia"
+        },
+        {
+            "target": "Japan",
+            "size": 1,
+            "id": 85,
+            "color": "#e6ab02",
+            "source": "South Korea"
+        },
+        {
+            "target": "Georgia",
+            "size": 1,
+            "id": 86,
+            "color": "#e6ab02",
+            "source": "Russia"
+        },
+        {
+            "target": "Pakistan",
+            "size": 1,
+            "id": 87,
+            "source": "United Kingdom"
+        },
+        {
+            "target": "South Africa",
+            "size": 1,
+            "id": 88,
+            "source": "United Kingdom"
+        },
+        {
+            "target": "Honduras",
+            "size": 1,
+            "id": 89,
+            "color": "#1b9e77",
+            "source": "United States of America"
+        },
+        {
+            "target": "Lebanon",
+            "size": 1,
+            "id": 90,
+            "color": "#e7298a",
+            "source": "Palestine"
+        },
+        {
+            "target": "France",
+            "size": 1,
+            "id": 91,
+            "color": "#7570b3",
+            "source": "Spain"
+        },
+        {
+            "target": "France",
+            "size": 1,
+            "id": 92,
+            "color": "#7570b3",
+            "source": "Italy"
+        },
+        {
+            "target": "Iraq",
+            "size": 1,
+            "id": 93,
+            "color": "#e7298a",
+            "source": "Syria"
+        },
+        {
+            "target": "South Africa",
+            "size": 1,
+            "id": 94,
+            "color": "#66a61e",
+            "source": "Zimbabwe"
+        },
+        {
+            "target": "Bulgaria",
+            "size": 1,
+            "id": 95,
+            "source": "Turkey"
+        },
+        {
+            "target": "Philippines",
+            "size": 1,
+            "id": 96,
+            "source": "Saudi Arabia"
+        },
+        {
+            "target": "Kenya",
+            "size": 1,
+            "id": 97,
+            "color": "#66a61e",
+            "source": "Somalia"
+        },
+        {
+            "target": "Austria",
+            "size": 1,
+            "id": 98,
+            "color": "#7570b3",
+            "source": "Germany"
+        },
+        {
+            "target": "Poland",
+            "size": 1,
+            "id": 99,
+            "source": "United States of America"
+        },
+        {
+            "target": "Albania",
+            "size": 1,
+            "id": 100,
+            "color": "#7570b3",
+            "source": "Greece"
+        },
+        {
+            "target": "Belarus",
+            "size": 1,
+            "id": 101,
+            "color": "#7570b3",
+            "source": "Ukraine"
+        },
+        {
+            "target": "Ecuador",
+            "size": 1,
+            "id": 102,
+            "source": "United States of America"
+        },
+        {
+            "target": "Italy",
+            "size": 1,
+            "id": 103,
+            "color": "#7570b3",
+            "source": "Switzerland"
+        },
+        {
+            "target": "Argentina",
+            "size": 1,
+            "id": 104,
+            "color": "#d95f02",
+            "source": "Bolivia"
+        },
+        {
+            "target": "Mozambique",
+            "size": 1,
+            "id": 105,
+            "color": "#66a61e",
+            "source": "South Africa"
+        },
+        {
+            "target": "Albania",
+            "size": 1,
+            "id": 106,
+            "color": "#7570b3",
+            "source": "Italy"
+        },
+        {
+            "target": "Australia",
+            "size": 1,
+            "id": 107,
+            "source": "China"
+        },
+        {
+            "target": "Peru",
+            "size": 1,
+            "id": 108,
+            "source": "United States of America"
+        },
+        {
+            "target": "China",
+            "size": 1,
+            "id": 109,
+            "color": "#e6ab02",
+            "source": "Singapore"
+        },
+        {
+            "target": "Germany",
+            "size": 1,
+            "id": 110,
+            "color": "#7570b3",
+            "source": "Switzerland"
+        },
+        {
+            "target": "Ethiopia",
+            "size": 1,
+            "id": 111,
+            "color": "#66a61e",
+            "source": "Somalia"
+        },
+        {
+            "target": "Chad",
+            "size": 1,
+            "id": 112,
+            "source": "Sudan"
+        },
+        {
+            "target": "Italy",
+            "size": 1,
+            "id": 113,
+            "source": "United States of America"
+        },
+        {
+            "target": "Ecuador",
+            "size": 1,
+            "id": 114,
+            "source": "Spain"
+        },
+        {
+            "target": "Italy",
+            "size": 1,
+            "id": 115,
+            "source": "Morocco"
+        },
+        {
+            "target": "Germany",
+            "size": 1,
+            "id": 116,
+            "color": "#7570b3",
+            "source": "United Kingdom"
+        },
+        {
+            "target": "Bosnia and Herzegovina",
+            "size": 1,
+            "id": 117,
+            "color": "#7570b3",
+            "source": "Croatia"
+        },
+        {
+            "target": "Russia",
+            "size": 1,
+            "id": 118,
+            "source": "United States of America"
+        },
+        {
+            "target": "Saudi Arabia",
+            "size": 1,
+            "id": 119,
+            "source": "Sri Lanka"
+        },
+        {
+            "target": "Spain",
+            "size": 1,
+            "id": 120,
+            "color": "#7570b3",
+            "source": "United Kingdom"
+        },
+        {
+            "target": "Portugal",
+            "size": 1,
+            "id": 121,
+            "source": "United States of America"
+        },
+        {
+            "target": "France",
+            "size": 1,
+            "id": 122,
+            "source": "Tunisia"
+        },
+        {
+            "target": "Benin",
+            "size": 1,
+            "id": 123,
+            "color": "#66a61e",
+            "source": "Nigeria"
+        },
+        {
+            "target": "Japan",
+            "size": 1,
+            "id": 124,
+            "source": "United States of America"
+        },
+        {
+            "target": "Egypt",
+            "size": 1,
+            "id": 125,
+            "color": "#e7298a",
+            "source": "Kuwait"
+        },
+        {
+            "target": "Australia",
+            "size": 1,
+            "id": 126,
+            "source": "India"
+        },
+        {
+            "target": "Ethiopia",
+            "size": 1,
+            "id": 127,
+            "color": "#66a61e",
+            "source": "South Sudan"
+        },
+        {
+            "target": "Nepal",
+            "size": 1,
+            "id": 128,
+            "source": "Saudi Arabia"
+        },
+        {
+            "target": "France",
+            "size": 1,
+            "id": 129,
+            "color": "#7570b3",
+            "source": "Germany"
+        },
+        {
+            "target": "Kenya",
+            "size": 1,
+            "id": 130,
+            "color": "#66a61e",
+            "source": "Uganda"
+        },
+        {
+            "target": "Ivory Coast",
+            "size": 1,
+            "id": 131,
+            "color": "#66a61e",
+            "source": "Mali"
+        },
+        {
+            "target": "Brazil",
+            "size": 1,
+            "id": 132,
+            "source": "United States of America"
+        },
+        {
+            "target": "Iran",
+            "size": 1,
+            "id": 133,
+            "source": "United States of America"
+        },
+        {
+            "target": "Saudi Arabia",
+            "size": 1,
+            "id": 134,
+            "color": "#e7298a",
+            "source": "Sudan"
+        },
+        {
+            "target": "Afghanistan",
+            "size": 1,
+            "id": 135,
+            "color": "#e7298a",
+            "source": "Saudi Arabia"
+        },
+        {
+            "target": "Moldova",
+            "size": 1,
+            "id": 136,
+            "source": "Russia"
+        },
+        {
+            "target": "Colombia",
+            "size": 1,
+            "id": 137,
+            "source": "Spain"
+        },
+        {
+            "target": "Lesotho",
+            "size": 1,
+            "id": 138,
+            "color": "#66a61e",
+            "source": "South Africa"
+        },
+        {
+            "target": "Bangladesh",
+            "size": 1,
+            "id": 139,
+            "source": "Kuwait"
+        },
+        {
+            "target": "Argentina",
+            "size": 1,
+            "id": 140,
+            "source": "Spain"
+        },
+        {
+            "target": "Ukraine",
+            "size": 1,
+            "id": 141,
+            "source": "United States of America"
+        },
+        {
+            "target": "Bangladesh",
+            "size": 1,
+            "id": 142,
+            "source": "Oman"
+        },
+        {
+            "target": "Bosnia and Herzegovina",
+            "size": 1,
+            "id": 143,
+            "color": "#7570b3",
+            "source": "Republic of Serbia"
+        },
+        {
+            "target": "Ukraine",
+            "size": 1,
+            "id": 144,
+            "source": "Uzbekistan"
+        },
+        {
+            "target": "Croatia",
+            "size": 1,
+            "id": 145,
+            "color": "#7570b3",
+            "source": "Republic of Serbia"
+        },
+        {
+            "target": "France",
+            "size": 1,
+            "id": 146,
+            "color": "#7570b3",
+            "source": "United Kingdom"
+        },
+        {
+            "target": "Dominican Republic",
+            "size": 1,
+            "id": 147,
+            "color": "#1b9e77",
+            "source": "Haiti"
+        },
+        {
+            "target": "New Zealand",
+            "size": 1,
+            "id": 148,
+            "source": "United Kingdom"
+        },
+        {
+            "target": "Germany",
+            "size": 1,
+            "id": 149,
+            "color": "#7570b3",
+            "source": "Greece"
+        },
+        {
+            "target": "Democratic Republic of the Congo",
+            "size": 1,
+            "id": 150,
+            "color": "#66a61e",
+            "source": "Rwanda"
+        },
+        {
+            "target": "Pakistan",
+            "size": 1,
+            "id": 151,
+            "source": "United States of America"
+        },
+        {
+            "target": "Belgium",
+            "size": 1,
+            "id": 152,
+            "color": "#7570b3",
+            "source": "France"
+        },
+        {
+            "target": "France",
+            "size": 1,
+            "id": 153,
+            "source": "Turkey"
+        },
+        {
+            "target": "Kuwait",
+            "size": 1,
+            "id": 154,
+            "color": "#e7298a",
+            "source": "Pakistan"
+        },
+        {
+            "target": "Costa Rica",
+            "size": 1,
+            "id": 155,
+            "color": "#1b9e77",
+            "source": "Nicaragua"
+        },
+        {
+            "target": "Democratic Republic of the Congo",
+            "size": 1,
+            "id": 156,
+            "color": "#66a61e",
+            "source": "Uganda"
+        },
+        {
+            "target": "Canada",
+            "size": 1,
+            "id": 157,
+            "source": "Italy"
+        },
+        {
+            "target": "China",
+            "size": 1,
+            "id": 158,
+            "color": "#e6ab02",
+            "source": "Macao"
+        },
+        {
+            "target": "Bahrain",
+            "size": 1,
+            "id": 159,
+            "source": "India"
+        },
+        {
+            "target": "Germany",
+            "size": 1,
+            "id": 160,
+            "color": "#7570b3",
+            "source": "Spain"
+        },
+        {
+            "target": "Kazakhstan",
+            "size": 1,
+            "id": 161,
+            "color": "#e6ab02",
+            "source": "Uzbekistan"
+        },
+        {
+            "target": "Brazil",
+            "size": 1,
+            "id": 162,
+            "source": "Portugal"
+        },
+        {
+            "target": "Ghana",
+            "size": 1,
+            "id": 163,
+            "color": "#66a61e",
+            "source": "Nigeria"
+        },
+        {
+            "target": "Libya",
+            "size": 1,
+            "id": 164,
+            "color": "#e7298a",
+            "source": "Palestine"
+        },
+        {
+            "target": "Oman",
+            "size": 1,
+            "id": 165,
+            "color": "#e7298a",
+            "source": "Pakistan"
+        },
+        {
+            "target": "Argentina",
+            "size": 1,
+            "id": 166,
+            "color": "#d95f02",
+            "source": "Chile"
+        },
+        {
+            "target": "Guyana",
+            "size": 1,
+            "id": 167,
+            "source": "United States of America"
+        },
+        {
+            "target": "Bangladesh",
+            "size": 1,
+            "id": 168,
+            "source": "United Kingdom"
+        },
+        {
+            "target": "Germany",
+            "size": 1,
+            "id": 169,
+            "color": "#7570b3",
+            "source": "Netherlands"
+        },
+        {
+            "target": "Germany",
+            "size": 1,
+            "id": 170,
+            "color": "#7570b3",
+            "source": "Ukraine"
+        },
+        {
+            "target": "Nicaragua",
+            "size": 1,
+            "id": 171,
+            "color": "#1b9e77",
+            "source": "United States of America"
+        },
+        {
+            "target": "Indonesia",
+            "size": 1,
+            "id": 172,
+            "source": "United Arab Emirates"
+        },
+        {
+            "target": "Malaysia",
+            "size": 1,
+            "id": 173,
+            "color": "#e6ab02",
+            "source": "Myanmar"
+        },
+        {
+            "target": "Russia",
+            "size": 1,
+            "id": 174,
+            "color": "#e6ab02",
+            "source": "Turkmenistan"
+        },
+        {
+            "target": "France",
+            "size": 1,
+            "id": 175,
+            "color": "#7570b3",
+            "source": "Switzerland"
+        },
+        {
+            "target": "Trinidad and Tobago",
+            "size": 1,
+            "id": 176,
+            "color": "#1b9e77",
+            "source": "United States of America"
+        },
+        {
+            "target": "Somalia",
+            "size": 1,
+            "id": 177,
+            "source": "Yemen"
+        },
+        {
+            "target": "Palestine",
+            "size": 1,
+            "id": 178,
+            "color": "#e7298a",
+            "source": "Syria"
+        },
+        {
+            "target": "Croatia",
+            "size": 1,
+            "id": 179,
+            "color": "#7570b3",
+            "source": "Germany"
+        },
+        {
+            "target": "Canada",
+            "size": 1,
+            "id": 180,
+            "source": "Hong Kong"
+        },
+        {
+            "target": "Brazil",
+            "size": 1,
+            "id": 181,
+            "source": "Japan"
+        },
+        {
+            "target": "Thailand",
+            "size": 1,
+            "id": 182,
+            "source": "United States of America"
+        },
+        {
+            "target": "Nigeria",
+            "size": 1,
+            "id": 183,
+            "source": "United States of America"
+        },
+        {
+            "target": "Hong Kong",
+            "size": 1,
+            "id": 184,
+            "source": "United States of America"
+        },
+        {
+            "target": "Armenia",
+            "size": 1,
+            "id": 185,
+            "color": "#e7298a",
+            "source": "Azerbaijan"
+        },
+        {
+            "target": "Bangladesh",
+            "size": 1,
+            "id": 186,
+            "source": "United States of America"
+        },
+        {
+            "target": "Australia",
+            "size": 1,
+            "id": 187,
+            "source": "Italy"
+        },
+        {
+            "target": "Angola",
+            "size": 1,
+            "id": 188,
+            "color": "#66a61e",
+            "source": "Democratic Republic of the Congo"
+        },
+        {
+            "target": "Australia",
+            "size": 1,
+            "id": 189,
+            "source": "Vietnam"
+        },
+        {
+            "target": "Latvia",
+            "size": 1,
+            "id": 190,
+            "source": "Russia"
+        },
+        {
+            "target": "Australia",
+            "size": 1,
+            "id": 191,
+            "source": "Philippines"
+        },
+        {
+            "target": "Spain",
+            "size": 1,
+            "id": 192,
+            "source": "Venezuela"
+        },
+        {
+            "target": "Argentina",
+            "size": 1,
+            "id": 193,
+            "source": "Italy"
+        },
+        {
+            "target": "Japan",
+            "size": 1,
+            "id": 194,
+            "color": "#e6ab02",
+            "source": "Philippines"
+        },
+        {
+            "target": "Italy",
+            "size": 1,
+            "id": 195,
+            "color": "#7570b3",
+            "source": "Ukraine"
+        },
+        {
+            "target": "Belgium",
+            "size": 1,
+            "id": 196,
+            "color": "#7570b3",
+            "source": "Italy"
+        },
+        {
+            "target": "Portugal",
+            "size": 1,
+            "id": 197,
+            "color": "#7570b3",
+            "source": "Switzerland"
+        },
+        {
+            "target": "Netherlands",
+            "size": 1,
+            "id": 198,
+            "source": "Turkey"
+        },
+        {
+            "target": "France",
+            "size": 1,
+            "id": 199,
+            "source": "United States of America"
+        }
+    ]
+}

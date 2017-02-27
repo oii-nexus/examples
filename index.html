@@ -9,13 +9,17 @@
 
 <!-- JavaScript -->
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script src="js/sigma.require.js"></script>
+<!-- src="js/sigma.require.js" -->
+<script src="https://rawgit.com/Linkurious/linkurious.js/develop/dist/sigma.min.js"></script>
 <script src="js/sigma.parsers.json.min.js"></script>
-<script src="js/sigma.renderers.customEdgeShapes/sigma.canvas.edgehovers.tapered.js"></script>
-<script src="js/sigma.renderers.customEdgeShapes/sigma.canvas.edges.tapered.js"></script>
 <script src="js/sigma.plugins.filter.js"></script>
 <script src="js/oii_networks.js"></script>
+<script src="map.js"></script>
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+<script src="js/sigma.plugins.leaflet/sigma.plugins.leaflet.js"></script>
 
 <!--CSS-->
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
@@ -28,6 +32,7 @@
 </head>
 <body>
 <div id="container">
+	<div id="map-container"></div>
 	<div id="graph-container"></div>
 </div>
 
